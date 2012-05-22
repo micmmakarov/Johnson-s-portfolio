@@ -1,10 +1,22 @@
 @font-face {
-    font-family: 'OSPDIN';
+    font-family: 'ospdin';
     src: url('../fonts/OSP-DIN-webfont.eot');
     src: url('../fonts/OSP-DIN-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/OSP-DIN-webfont.woff') format('woff'),
          url('../fonts/OSP-DIN-webfont.ttf') format('truetype'),
          url('../fonts/OSP-DIN-webfont.svg#OSPDIN') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'classicround';
+    src: url('../fonts/classic-round/ClassicRound-Medium-webfont.eot');
+    src: url('../fonts/classic-round/ClassicRound-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/classic-round/ClassicRound-Medium-webfont.woff') format('woff'),
+         url('../fonts/classic-round/ClassicRound-Medium-webfont.ttf') format('truetype'),
+         url('../fonts/classic-round/ClassicRound-Medium-webfont.svg#classicround') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -16,12 +28,12 @@
 	color: black;
 	height: 500px;
 	margin: 0 auto;
-	padding: 160px 0 0 0;
+	padding: 10px 0 0 0;
 	width:100%;
 
 }
 
-#first {
+#first { 
 	background:url(../images/bg/backgrounds-1-opt.jpg) 50% 0 no-repeat fixed;
 	color: white;
 	height: 1000px;
@@ -95,12 +107,22 @@ width:100%;
 
 #nav li a.current {
 	background-color: orange;
+	color:black;
 }
 .featured {
-
+margin-top:130px;
 }
+
+.main-menu {
+padding-top:40px; margin-left:230px;
+}
+
 .main-menu li {
-float:left;
+float:left; 
+font-family: 'ospdin', Helvetica Neue, sans-serif; 
+font-size:30px;
+text-transform:uppercase;
+margin-right:50px;
 }
 .main-manu li  a {
 color:green;
@@ -109,6 +131,65 @@ color:green;
 clear:both;
 }
 .hello-text {
-padding:50px;
-font-size:30px;
+	text-align:left; 
+	font-family:classicround, georgia, serif;
+	font-size:34px;
+	line-height:38px; 
+		width:820px;
+	margin-top:50px;
+	margin-left:90px;
+	text-shadow:3px 5px #f0f0f0;
+	}
+
+body {
+	font-family: 'asap', tahoma, san-serif;
+	}
+
+h1 {
+	font-family: 'ospdin', Helvetica Neue, sans-serif; 
+	text-transform:uppercase; 
+	font-size:58px; margin-bottom:20px;
+	}
+
+h6 {
+	font-family: 'asap', tahoma, san-serif; 
+	letter-spacing: .3em; 
+	color:#999999; 
+	font-size:14px;
+	}
+	
+#start {text-align:center;}
+
+.showcase-number {
+color:#666666;
+/* text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); 
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99FFFFFF,endColorstr=#99FFFFFF);
+            zoom: 1;  
+*/
+
 }
+
+div.slide {
+font-size:15px;
+line-height:21px;
+}
+
+div.row {padding-top:40px;}
+
+span.expand {display:block; margin-top:15px;}
+
+h2 {
+font-family: 'ospdin', Helvetica Neue, sans-serif; 
+font-size:41px; 
+line-height:41px; 
+color:white;
+margin-bottom:10px; 
+text-transform:uppercase;
+margin-left:40px;
+}
+
+span.subtitle {color:#339999; text-transform:capitalize;
+margin-left:40px;
+}
+
+.johnson-set-paddings2 {width:480px;}
