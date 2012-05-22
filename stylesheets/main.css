@@ -1,0 +1,101 @@
+#start {
+	background:white 50% -75px no-repeat fixed;
+	color: black;
+	height: 500px;
+	margin: 0 auto;
+	padding: 160px 0 0 0;
+	width:100%;
+
+}
+
+#first {
+	background:url(../images/bg/backgrounds-1-opt.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	height: 1000px;
+	margin: 0 auto;
+
+	width:100%;
+
+
+}
+#second {
+	background:url(../images/bg/backgrounds-2-opt.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	height: 1000px;
+	margin: 0 auto;
+
+	width:100%;
+
+
+}
+
+#third {
+	background:url(../images/bg/backgrounds-3-opt.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	height: 1000px;
+	margin: 0 auto;
+
+	width:100%;
+
+}
+#forth {
+	background:url(../images/bg/backgrounds-4-opt.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	height: 1000px;
+	margin: 0 auto;
+
+	width:100%;
+
+}
+
+#footer {
+background:black;
+height: 500px;
+width:100%;
+	padding: 160px 0 0 0;
+}
+
+.slide {
+	width: 100%;
+}
+
+#nav{
+	list-style: none;
+	position: fixed;
+	right: 20px;
+	z-index: 999;
+}
+
+#nav li{
+	margin: 0 0 15px 0;	
+}
+
+
+#nav li a {
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	background-color: white;
+	border: solid 2px white;
+}
+
+#nav li a.current {
+	background-color: orange;
+}
+.featured {
+
+}
+.main-menu li {
+float:left;
+}
+.main-manu li  a {
+color:green;
+}
+.clear {
+clear:both;
+}
+.hello-text {
+padding:50px;
+font-size:30px;
+}

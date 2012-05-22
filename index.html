@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Welcome to Foundation</title>
+  
+	<!-- Included CSS Files -->
+	<link rel="stylesheet" href="stylesheets/foundation.css">
+	<link rel="stylesheet" href="stylesheets/app.css">
+	<link rel="stylesheet" href="stylesheets/main.css">
+
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="stylesheets/ie.css">
+	<![endif]-->
+	
+	<script src="javascripts/modernizr.foundation.js"></script>
+	
+	<!-- googloe fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+	<!-- IE Fix for HTML5 Tags -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+
+<ul id="nav">
+
+		<li><a href="#start" title="Next Section"></a></li>
+
+	    <li><a href="#first" title="Next Section"></a></li>
+
+	    <li><a href="#second" title="Next Section"></a></li>
+
+	    <li><a href="#third" title="Next Section"></a></li>
+
+	    <li><a href="#forth" title="Next Section"></a></li>
+
+	</ul>
+
+
+
+	<div id="start" class="slide">
+		<div class=row>
+			<h1>First name Johnson</h1>
+			<h6>Portfolio of Johnson Chen</h6>
+			<ul class=main-menu>
+				<li><a href=#">Portfolio</a></li>
+				<li><a href=#">Blog</a></li>
+				<li><a href=#">Freebies</a></li>
+				<li><a href=#">About/contact</a></li>
+			</ul>
+			<div class=clear></div>
+			<p class=hello-text>Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+			</p>
+		</div>
+	</div>
+	<div id="first" class="slide">
+		<div class=row>
+		<h1 style="color:white;">Header</h1>
+
+		<div class="featured"> 
+			<img src="images/slides/si-1.jpg" width="100%" />
+			<img src="images/slides/si-2.jpg"  width="100%"/>
+			<img src="images/slides/si-3.jpg" width="100%" />
+		</div>
+		
+		</div>
+	</div>
+	<div id="second" class="slide">
+		<div class=row>
+			<h1>Header</h1>
+
+			<div class="featured"> 
+				<img src="images/slides/si-4.jpg" width="100%"/>
+				<img src="images/slides/si-5.jpg" width="100%"/>
+			</div>
+		</div>
+	</div>
+	<div id="third" class="slide">
+		Some text
+	</div>
+	<div id="forth" class="slide">
+		Some text
+	</div>
+	<div id="footer" class="slide">
+		Some text
+	</div>
+			
+	<!-- container -->
+
+
+
+
+	<!-- Included JS Files -->
+	<script src="javascripts/jquery.min.js"></script>
+
+	<script type="text/javascript" src="javascripts/jquery.parallax-1.1.js"></script>
+	<script type="text/javascript" src="javascripts/jquery.scrollTo-1.4.2-min.js"></script>
+	<script type="text/javascript" src="javascripts/jquery.localscroll-1.2.7-min.js"></script>
+	
+	<script type="text/javascript" src="javascripts/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="javascripts/jquery.scrollorama.js"></script>
+	<script type="text/javascript" src="javascripts/jquery.scrolldeck.js"></script>
+
+	<script src="javascripts/foundation.js"></script>
+	<script src="javascripts/app.js"></script>
+	
+	<script>
+	$(document).ready(function () {
+		
+			RepositionNav();
+
+	
+
+	$(window).resize(function(){
+
+		RepositionNav();
+
+	});	
+
+		
+		$('#start').parallax("50%", 0, 0.1, true);
+		$('#first').parallax("50%", 0, 0.2, true);
+		$('#second').parallax("50%", 0, 0.1, true);
+		$('#third').parallax("50%", 0, 0.1, true);
+		$('#forth').parallax("50%", 0, 0.4, true);
+		$('#footer').parallax("50%", 8000, 0.3, true);
+	
+		var deck = new $.scrolldeck({
+		slides: '.slide',
+		buttons: '#nav li a',
+		easing: 'easeInOutExpo'
+		});
+
+     $(window).load(function() {
+         $('.featured').orbit();
+     });
+
+	});
+	</script>
+
+</body>
+</html>
