@@ -24,13 +24,13 @@
 
 
 #start {
-	background:white 50% -75px no-repeat fixed;
+	background:#f8f8f8 50% -75px no-repeat fixed;
 	color: black;
 	height: 500px;
 	margin: 0 auto;
 	padding: 10px 0 0 0;
 	width:100%;
-
+	text-align:center;
 }
 
 #first { 
@@ -110,7 +110,7 @@ width:100%;
 	color:black;
 }
 .featured {
-margin-top:130px;
+margin-top:120px;
 }
 
 .main-menu {
@@ -120,7 +120,7 @@ padding-top:40px; margin-left:230px;
 .main-menu li {
 float:left; 
 font-family: 'ospdin', Helvetica Neue, sans-serif; 
-font-size:30px;
+font-size:29px;
 text-transform:uppercase;
 margin-right:50px;
 }
@@ -148,7 +148,9 @@ body {
 h1 {
 	font-family: 'ospdin', Helvetica Neue, sans-serif; 
 	text-transform:uppercase; 
-	font-size:58px; margin-bottom:20px;
+	font-size:58px; 
+	text-shadow:0px 1px 0px white;
+	margin-bottom:20px;
 	}
 
 h6 {
@@ -156,9 +158,9 @@ h6 {
 	letter-spacing: .3em; 
 	color:#999999; 
 	font-size:14px;
+	text-shadow:0px 1px 0px white;
 	}
 	
-#start {text-align:center;}
 
 .showcase-number {
 color:#666666;
@@ -174,7 +176,7 @@ font-size:15px;
 line-height:21px;
 }
 
-div.row {padding-top:40px;}
+.five, .seven {margin-top:40px;}
 
 span.expand {display:block; margin-top:15px;}
 
@@ -193,3 +195,18 @@ margin-left:40px;
 }
 
 .johnson-set-paddings2 {width:480px;}
+
+.main-menu a:link {color:#444444; text-shadow:0px 1px 0px white; box-shadow:none; }
+.main-menu a:visited {color:#444444;}
+.main-menu a:hover {
+	
+	color:#339999;
+
+  -webkit-transition: all 0.3s ease-out; 
+     -moz-transition: all 0.3s ease-out; 
+      -ms-transition: all 0.3s ease-out; 
+       -o-transition: all 0.3s ease-out; 
+          transition: all 0.3s ease-out;
+}
+
+.main-menu a:active
