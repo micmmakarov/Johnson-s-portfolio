@@ -115,7 +115,11 @@ width:100%;
 }
 
 .main-menu {
-padding-top:40px; margin-left:230px;
+padding-top:40px; margin:auto;overflow:hidden;
+width:520px;
+}
+.main-menu li:last-child {
+margin-right:0px;
 }
 
 .main-menu li {
@@ -136,9 +140,8 @@ clear:both;
 	font-family:classicround, georgia, serif;
 	font-size:34px;
 	line-height:38px; 
-		width:820px;
-	margin-top:50px;
-	margin-left:90px;
+		width:80%;
+	margin:50px auto;
 	text-shadow:3px 5px #f0f0f0;
 	color:#474747;
 	}
@@ -205,7 +208,7 @@ span.subtitle {color:#339999; text-transform:capitalize;
 margin-left:40px;
 }
 
-.johnson-set-paddings2 {width:480px;}
+.johnson-set-paddings2 {padding:20px;}
 
 .main-menu a:link {color:#444444; text-shadow:0px 1px 0px white; box-shadow:none; }
 .main-menu a:visited {color:#444444;}
@@ -236,6 +239,44 @@ display:block;
 padding-top:150px;
 }
 
+@media only screen and (max-width: 980px) {
+#start {
+height:750px !important;
+}
+	
+div.orbit-wrapper div.slider-nav span.right {
+right:0 !important;
+}
+div.orbit-wrapper div.slider-nav span.left {
+left:0 !important;
+}
+div.orbit-wrapper div.slider-nav span {
+top:80% !important;
+}
+.hello-text {
+	font-size:24px;
+	}
+.main-menu li {
+margin-right:0px;
+width:20%;
+text-align:center;
+}
+.main-menu li:last-child {
+width:40%;
+}
+
+.main-menu {
+width:100%;
+}
+
+	}
+	
+		@media only screen and (max-width: 400px) {
+			.main-menu li a {
+			font-size:20px;
+			}
+		}
+	
 div.orbit-wrapper div.slider-nav span.right {
     background: url(../images/image.png) no-repeat -120px -130px;
 	width:110px;
@@ -243,9 +284,7 @@ div.orbit-wrapper div.slider-nav span.right {
     right: -110px; }
 	div.orbit-wrapper div.slider-nav span.right:hover {
     background: url(../images/image.png) no-repeat -120px -250px;
-	width:110px;
-	height:120px;
-    right: -110px; }
+	}
 
 
 div.orbit-wrapper div.slider-nav span.left {
@@ -255,9 +294,7 @@ div.orbit-wrapper div.slider-nav span.left {
     left: -110px; }
 	div.orbit-wrapper div.slider-nav span.left:hover {
     background: url(../images/image.png) no-repeat -5px -250px;
-	width:110px;
-	height:125px;
-    left: -110px; }
+	}
 	
 
 	

@@ -151,7 +151,8 @@
 		// PRIVATE FUNCTIONS
 		
 		function updateNav() {
-			if (buttons) {
+/*		alert(currIndex);*/
+		if (buttons) {
 				buttons.removeClass('current');
 				var currSection = -1;
 				for (i=0; i<sections.length;i++) {
@@ -161,6 +162,7 @@
 				}
 				if (currSection != -1) {
 					buttons.eq(currSection).addClass('current');
+					$("#nav li:nth-child("+currIndex+")").css("background","green");
 				}
 			}
 		}
