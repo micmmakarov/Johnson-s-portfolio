@@ -1012,7 +1012,7 @@ div.orbit-wrapper div.slider-nav span {
     top: 50%;
     margin-top: -50px;
     cursor: pointer; }
-
+/*
 div.orbit-wrapper div.slider-nav span.right {
     background: url(../images/orbit/right-arrow.png);
     right: 0; }
@@ -1020,10 +1020,10 @@ div.orbit-wrapper div.slider-nav span.right {
 div.orbit-wrapper div.slider-nav span.left {
     background: url(../images/orbit/left-arrow.png);
     left: 0; }
-
+*/
 /* BULLET NAV
    ================================================== */
-
+/*
 ul.orbit-bullets {
     position: absolute;
     z-index: 30;
@@ -1047,11 +1047,11 @@ ul.orbit-bullets li {
 ul.orbit-bullets li.active {
     color: #222;
     background-position: -8px 0; }
-    
+    */
 ul.orbit-bullets li.has-thumb {
     background: none;
     width: 100px;
-    height: 75px; }
+    height: 75px; } 
 
 ul.orbit-bullets li.active.has-thumb {
     background-position: 0 0;
@@ -1066,7 +1066,7 @@ div.orbit img.fluid-placeholder {
     width: 100%; }
 
 div.orbit, div.orbit-wrapper { width: 100% !important; }
-
+/*
 ul.orbit-bullets {
     position: absolute;
     z-index: 30;
@@ -1086,19 +1086,23 @@ ul.orbit-bullets li {
     width: 13px;
     height: 12px;
     overflow: hidden; }
+	
+	ul.orbit-bullets li.active {
+    color: #222;
+    background-position: -8px 0; }
+	*/
+	ul.orbit-bullets li.active.has-thumb {
+    background-position: 0 0;
+    border-top: 2px solid #000; }
 
 ul.orbit-bullets li.has-thumb {
     background: none;
     width: 100px;
     height: 75px; }
 
-ul.orbit-bullets li.active {
-    color: #222;
-    background-position: -8px 0; }
 
-ul.orbit-bullets li.active.has-thumb {
-    background-position: 0 0;
-    border-top: 2px solid #000; }
+
+
     
     
 /* Correct timer in IE */

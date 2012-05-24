@@ -35,18 +35,21 @@
 
 </head>
 <body>
+<div class=left-slide>
+<h1><a class=close-left-slide href="#">Close this slide</a></h1>
+</div>
 
 <ul id="nav">
 
-		<li><a href="#start" title="Next Section"></a></li>
+		<li><a class=nav href="#start .featured" title="Next Section"></a></li>
 
-	    <li><a href="#first" title="Next Section"></a></li>
+	    <li><a class=nav href="#first .featured" title="Next Section"></a></li>
 
-	    <li><a href="#second" title="Next Section"></a></li>
+	    <li><a class=nav href="#second .featured" title="Next Section"></a></li>
 
-	    <li><a href="#third" title="Next Section"></a></li>
+	    <li><a class=nav href="#third .featured" title="Next Section"></a></li>
 
-	    <li><a href="#forth" title="Next Section"></a></li>
+	    <li><a class=nav href="#forth .featured" title="Next Section"></a></li>
 
 	</ul>
 
@@ -63,16 +66,18 @@
 				<li><a href="#">About/contact</a></li>
 			</ul>
 			<div class=clear></div>
-			<p class=hello-text><span style="color:#cc3300;">L</span>orem ipsum dolor sit amet, consectetuer adipiscing elit. 
-            <span style="color:#474747;">Aenean commodo ligula eget dolor. Aenean matta. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</span>
+			<p class=hello-text>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+            Aenean commodo ligula eget dolor. Aenean matta. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.
 			</p>
 		</div>
+		<a class="nav black-triangle" href="#first .featured">&nbsp;
+		</a>
 	</div>
 	<div id="first" class="slide">
-		<div class=row>
+		<div class="row padding100">
 		<span class=showcase-number>Showcase 1 of 5</span>
 
-		<div class="featured"> 
+		<div class="featured" id=first-slider> 
 			<img src="images/slides/si-1.jpg" width="100%" />
 			<img src="images/slides/si-2.jpg"  width="100%"/>
 			<img src="images/slides/si-3.jpg" width="100%" />
@@ -186,17 +191,53 @@
 		$('#third').parallax("50%", 0, 0.1, true);
 		$('#forth').parallax("50%", 0, 0.4, true);
 		$('#footer').parallax("50%", 8000, 0.3, true);
+		$('#first-slider').parallax("50%", 0, 0.3, true);
 	
 		var deck = new $.scrolldeck({
 		slides: '.slide',
-		buttons: '#nav li a',
+		buttons: '.nav',
 		easing: 'easeInOutExpo'
 		});
 
-     $(window).load(function() {
-         $('.featured').orbit();
+
+	 
+         $('.featured').orbit({
+			 animation: 'horizontal-push',                  // fade, horizontal-slide, vertical-slide, horizontal-push
+			 animationSpeed: 800,                // how fast animtions are
+			 timer: false, 			 // true or false to have the timer
+			 resetTimerOnClick: false,           // true resets the timer instead of pausing slideshow progress
+			 advanceSpeed: 4000, 		 // if timer is enabled, time between transitions 
+			 pauseOnHover: false, 		 // if you hover pauses the slider
+			 startClockOnMouseOut: false, 	 // if clock should start on MouseOut
+			 startClockOnMouseOutAfter: 1000, 	 // how long after MouseOut should the timer start again
+			 directionalNav: true, 		 // manual advancing directional navs
+			 captions: true, 			 // do you want captions?
+			 captionAnimation: 'fade', 		 // fade, slideOpen, none
+			 captionAnimationSpeed: 800, 	 // if so how quickly should they animate in
+			 bullets: true,			 // true or false to activate the bullet navigation
+			 bulletThumbs: false,		 // thumbnails for the bullets
+			 bulletThumbLocation: '',		 // location from this file where thumbs will be
+			 afterSlideChange: function(){}, 	 // empty function 
+			 fluid: true                         // or set a aspect ratio for content slides (ex: '4x3') );
      });
 
+	 			$(".black-triangle").click(function(e) {
+				e.preventDefault();
+				var slide = $("#second");
+				currIndex = slide.index();
+				scrollToSlide(slide);
+			});
+	 
+	 $(".expand").click(function (e) {
+		e.preventDefault();
+		$(".left-slide").animate({"width":"100%"}, 1000);
+	 });
+	 $(".close-left-slide").click(function (e) {
+		e.preventDefault();
+		$(".left-slide").animate({"width":"0"}, 1000);
+	 });
+	 
+	 
 	});
 	</script>
 
