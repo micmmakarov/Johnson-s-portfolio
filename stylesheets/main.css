@@ -352,9 +352,18 @@ right:0px;
 width:0px;
 overflow:hidden;
 z-index:99999;
-background:orange;
+background:#cc3300;
 height:42px;
 }
+
+a.project-name:link {
+	color:white;
+	text-transform: uppercase;
+	font-family: 'ospdin', Helvetica Neue, sans-serif; 
+	font-size: 26px;
+	text-shadow: 0px -1px 0px #791e00;
+}
+
 .current-nav {
 		background: url(../images/image.png) no-repeat -8px -601px !important;
 		width:70px;
