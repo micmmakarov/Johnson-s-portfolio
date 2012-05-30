@@ -162,7 +162,9 @@
 				}
 				if (currSection != -1) {
 					buttons.eq(currSection).addClass('current');
-					$("#nav li:nth-child("+currIndex+")").css("background","green");
+					c = currIndex + 1;
+					$("#nav li a").removeClass("current-nav");
+					$("#nav li:nth-child("+c+") a:first-child").addClass('current-nav');
 				}
 			}
 		}

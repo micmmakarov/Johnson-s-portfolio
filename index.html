@@ -41,15 +41,15 @@
 
 <ul id="nav">
 
-		<li><a class=nav href="#start .featured" title="Next Section"></a></li>
+		<li><a class="nav nav-point" href="#start" title="Next Section"></a><div class=clear></div><a href="#start" class="nav project-name">Project1</a></li>
 
-	    <li><a class=nav href="#first .featured" title="Next Section"></a></li>
+	    <li><a class="nav nav-point" href="#first .featured" title="Next Section"></a><div class=clear></div><a href="#first .featured" class="nav project-name">Project2</a>
 
-	    <li><a class=nav href="#second .featured" title="Next Section"></a></li>
+	    <li><a class="nav nav-point" href="#second .featured" title="Next Section"></a><div class=clear></div><a href="#second .featured" class="nav project-name">Project3</a></li>
 
-	    <li><a class=nav href="#third .featured" title="Next Section"></a></li>
+	    <li><a class="nav nav-point" href="#third .featured" title="Next Section"></a><div class=clear></div><a href="#third .featured" class="nav project-name">Project4</a></li>
 
-	    <li><a class=nav href="#forth .featured" title="Next Section"></a></li>
+	    <li><a class="nav nav-point" href="#forth .featured" title="Next Section"></a><div class=clear></div><a href="#forth .featured" class="nav project-name">Project5</a></li>
 
 	</ul>
 
@@ -277,7 +277,17 @@
 		e.preventDefault();
 		$(".left-slide").animate({"width":"0"}, 1000);
 	 });
-	 
+		
+	  $("#nav li").hover(function () {
+		
+		$(this).find(".project-name").stop().animate({width:"150px"});
+	  
+		}, function () {
+
+		$(this).find(".project-name").stop().animate({width:"0px"});
+		
+		
+		});	  
 	 
 	});
 	</script>
