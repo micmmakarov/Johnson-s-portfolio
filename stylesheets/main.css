@@ -371,3 +371,23 @@ a.project-name:link {
 		z-index:99999;
 		content:' ';
 }
+.about {
+background:green;
+height:0px;
+width:100%;
+overflow:hidden;
+position:absolute;
+top:0;
+z-index:999999;
+}
+
+.h2 span {
+font-size:18px;
+color:grey !important;
+}
+
+.johnson-s-photo {
+padding:15px;
+bakcground:white;
+box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+}

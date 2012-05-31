@@ -54,7 +54,41 @@
 	</ul>
 
 
-
+	<div class=about>
+		<div class=row style="padding-top:30px;">
+			<div class="four columns">
+			
+						<div class=johnson-s-photo>
+							<img src="images/about-contact-photo.jpg" style="width:100%;height:auto;" />
+						</div>
+			
+			</div>
+			<div class="eight columns">
+				<div class=row>
+					<div class="five columns">
+					</div>
+					<div class="seven columns">
+						<p>Hi there, You ...</p>
+					</div>
+				</div>
+				<div class=row>
+					<h2 class=johnson-s-mail>firstname <span>at</span>gmail<span>dot</span>com</h2>
+				</div>
+				<div class=row>
+					<div class="five columns">
+					<p class=small-text>Small text, small text, small text, small text, small text, small text, small text, small text, small text, small text, small text, small text, small text, small text, small text, small text, small text, small text, small text</p>
+					</div>
+					<div class="seven columns">
+					<p>Also if you can find me memmmmdkfkdfk f gfd gd gf f gfd f g fdfg f </p>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+		<div class=row style="text-align:right;">
+			<a href="#" data-link="close-about">close!</a>
+		</div>
+	</div>
 	<div id="start" class="slide">
 		<div class=row>
 			<h1>FirstNameJohnson</h1>
@@ -63,7 +97,7 @@
 				<li><a href="#">Portfolio</a></li>
 				<li><a href="#">Blog</a></li>
 				<li><a href="#">Freebies</a></li>
-				<li><a href="#">About/contact</a></li>
+				<li><a href="#" data-link="about">About/contact</a></li>
 			</ul>
 			<div class=clear></div>
 			<p class=hello-text>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
@@ -288,6 +322,17 @@
 		
 		
 		});	  
+	 
+	 $("a[data-link='about']").click(function (e) {
+		e.preventDefault();
+		$(".about").stop().animate({'height':'500px'});
+		
+	 });
+	 $("a[data-link='close-about']").click(function (e) {
+		e.preventDefault();
+		$(".about").stop().animate({'height':'0px'});
+		
+	 });
 	 
 	});
 	</script>
