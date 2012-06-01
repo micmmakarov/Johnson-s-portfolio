@@ -353,7 +353,7 @@ width:0px;
 overflow:hidden;
 z-index:99999;
 background:#cc3300;
-height:42px;
+height:25px;
 }
 
 a.project-name:link {
@@ -371,6 +371,7 @@ a.project-name:link {
 		z-index:99999;
 		content:' ';
 }
+
 .about {
 background:url(../images/bg/about-background.png) top left green;
 height:0px;
@@ -392,4 +393,22 @@ background:white;
 box-shadow:1px 1px 2px rgba(0,0,0,0.2);
 }
 
-div.about .seven p {font-size:22px; font-family: 'classicround', san-serif; color:white;}
+div.about .seven p {
+font-size:21px; 
+line-height:27px;
+font-family: 'classicround', 
+san-serif; color:#072624; 
+text-shadow: 0px 1px 0px #63cbc4;
+width:560px;
+}
+
+.eight .five p.small-text {
+color:#0e3b39; 
+text-shadow: 0px 1px 0px #51c2b7; 
+font-size:14px; 
+font-family:'asap', san-serif;
+margin-bottom:10px;
+line-height: 16px;
+}
+
+h2.johnson-s-mail {font-size:67px;}
