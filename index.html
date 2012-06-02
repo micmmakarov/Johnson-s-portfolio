@@ -60,7 +60,7 @@
 
 
 	<div class=about>
-		<div class=row style="padding-top:30px;max-width:1200px;">
+		<div class="about-content row" style="padding-top:30px;max-width:1200px;">
 			<div class="four columns">
 			
 						<div class=johnson-s-photo>
@@ -347,7 +347,9 @@
 		if (w > 700) { var l = '600px'; }
 		if (w > 1200) { var l = '500px'; }
 		if (w <= 960) { var l = '800px'; }
+		$(".about-content").hide(0);
 		$(".about").stop().animate({'height':l},700);
+		$(".about-content").delay(200).fadeIn(2500);
 		
 	 });
 	 $("a[data-link='close-about']").click(function (e) {
