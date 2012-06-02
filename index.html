@@ -36,11 +36,57 @@
 </head>
 <body>
 
-<a class=top-bar class="nav" href="#start">
+<a class="nav top-bar" href="#start">
 	<div class=triangle-up></div>
 </a>
 
 <div class=left-slide>
+<div class=row>
+	<div class="seven columns">
+		<span class=m-slider-info></span>
+		<div class=m-slider>
+			<div class=image-wrap id="image-1">
+				<img src="images/popup/1.jpg" />
+			</div>
+			<div class=image-wrap id="image-2">
+				<img src="images/popup/2.jpg" />
+			</div>
+			<div class=image-wrap id="image-3">
+				<img src="images/popup/3.jpg" />
+			</div>
+			<div class=image-wrap id="image-4">
+				<img src="images/popup/4.jpg" />
+			</div>
+			<div class=image-wrap id="image-5">
+				<img src="images/popup/5.jpg" />
+			</div>
+			<div class=image-wrap id="image-6">
+				<img src="images/popup/6.jpg" />
+			</div>
+			<div class=image-wrap id="image-7">
+				<img src="images/popup/7.jpg" />
+			</div>
+		</div>
+		
+	</div>
+	<div class="five columns">
+				<div class=johnson-set-paddings1>
+					<h2>TITLE OF THING HERE</h2>
+					<span class=subtitle>print &middot; web &middot; branding</span>
+				</div>
+				<div class=johnson-set-paddings2 style="margin-left:20px;">
+				<p>DFdsfdsfds fsdfsdfs dfsd
+				<a class=image-link data-image="5">Image5</a>
+				
+				<div class="m-slider-thumbs">
+				</div>
+				
+				</p>
+				</div>
+	</div>
+</div>
+
+
 <h1><a class=close-left-slide href="#">Close this slide</a></h1>
 </div>
 
@@ -98,6 +144,8 @@
 			<a href="#" data-link="close-about"><h3>close!</h3></a>
 		</div>
 	</div>
+	
+	
 	<div id="start" class="slide">
 		<div class=row>
 			<h1 class=main-logo>FirstNameJohnson</h1>
@@ -120,9 +168,9 @@
 		
 		
 	<div id="first" class="slide">
-		<div class=top-bar-clone>
+		<a class="nav top-bar-clone" href="#start">
 			<div class=triangle-up></div>
-		</div>
+		</a>
 
 	
 		<div class="row padding100">
@@ -324,9 +372,12 @@
 	 $(".expand").click(function (e) {
 		e.preventDefault();
 		$(".left-slide").animate({"width":"100%"}, 1000);
+		$(".slide").fadeOut(3000,function () {$(".left-slide").css("position","static");});
+		
 	 });
 	 $(".close-left-slide").click(function (e) {
 		e.preventDefault();
+		$(".slide").fadeIn(100,function () {$(".left-slide").css("position","fixed");});
 		$(".left-slide").animate({"width":"0"}, 1000);
 	 });
 		
@@ -360,7 +411,33 @@
 		$(".about").delay(500).animate({'margin-top':'0px'},0);
 		
 	 });
+
 	
+	// m-slider init
+	pictures = $(".m-slider div");
+	pics = $(".m-slider div img");
+	pictures.hide();
+	info = $(".m-slider-info");
+	info.text("1 of "+pictures.length);
+	$(".m-slider div:first-child").show();
+	// generate thumbnails and links
+	thumb_box = $(".m-slider-thumbs");
+	for (i=1; i <= pictures.length; i++) {
+	
+		thumb_box.append("<a data-image=" + i + " class='m-img image-link'><img src="+$(".m-slider div:nth-child(" + i + ") img").attr("src")+" /></a>");
+		
+	}
+	
+	
+	 $(".image-link").live("click", function (e) {
+		e.preventDefault();
+		n = $(this).attr("data-image");
+		info.text(n+" of "+pictures.length);
+		$(".m-slider div").hide();
+		$(".m-slider div:nth-child(" + n + ")").show();
+	 });
+
+	 
 	 $(window).scroll(function () { 
 		y = $(window).scrollTop();
 		if (y >= 690) {

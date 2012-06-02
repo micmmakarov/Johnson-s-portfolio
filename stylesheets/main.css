@@ -350,6 +350,7 @@ div.orbit-wrapper div.slider-nav span.left {
 	min-height:700px;
 	width:0px;
 	background:rgba(0,0,0,0.8);
+	overflow:hidden;
 	
 	}
 	
@@ -489,4 +490,35 @@ width:100%;
 background:rgba(0,0,0,0.15);
 box-shadow: inset 0px -5px 15px rgba(0,0,0,0.1);
 display:block;
+}
+.image-wrap {
+padding:5px;
+background:white;
+box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+margin:30px;
+}
+.image-wrap img {
+width:100%;
+}
+.m-slider {
+
+}
+.m-slider-info {
+text-align:right;
+display:block;
+padding-right:30px;
+}
+.m-img {
+width:70px;
+height:70px;
+overflow:hidden;
+float:left;
+margin:2px;
+background:white;
+border:5px solid white;
+display:block;
+cursor:pointer;
+}
+.m-slider-thumbs:after {
+clear:both;
 }
