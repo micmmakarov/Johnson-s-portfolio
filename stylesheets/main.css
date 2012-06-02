@@ -452,8 +452,40 @@ line-height: 16px;
 }
 
 
-.johnson-s-photo img {
+.johnson-s-photo {
 max-width:400px;
 margin:auto;
+display:block;
+}
+
+.triangle-up {
+background: url(../images/image.png) no-repeat -258px -330px;
+width:14px;
+height:14px;
+margin:auto;
+cursor:pointer;
+display:block;
+margin-top:9px;
+content:' ';
+}
+
+.top-bar {
+position:fixed;
+height:30px;
+border-bottom:1px solid rgba(255,255,255,0.7);
+z-index:9999;
+width:100%;
+background:rgba(0,0,0,0.15);
+box-shadow: inset 0px -5px 15px rgba(0,0,0,0.1);
+display:none;
+}
+.top-bar-clone {
+position:absolute;
+height:30px;
+border-bottom:1px solid rgba(255,255,255,0.7);
+z-index:9999;
+width:100%;
+background:rgba(0,0,0,0.15);
+box-shadow: inset 0px -5px 15px rgba(0,0,0,0.1);
 display:block;
 }

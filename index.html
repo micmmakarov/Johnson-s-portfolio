@@ -35,6 +35,11 @@
 
 </head>
 <body>
+
+<div class=top-bar>
+	<div class=triangle-up></div>
+</div>
+
 <div class=left-slide>
 <h1><a class=close-left-slide href="#">Close this slide</a></h1>
 </div>
@@ -111,7 +116,15 @@
 		<a class="nav black-triangle" href="#first .featured">&nbsp;
 		</a>
 		</div>
+		
+		
+		
 	<div id="first" class="slide">
+		<div class=top-bar-clone>
+			<div class=triangle-up></div>
+		</div>
+
+	
 		<div class="row padding100">
 		<span class=showcase-number>Showcase 1 of 5</span>
 
@@ -150,6 +163,7 @@
 		
 	</div>
 	<div id="second" class="slide">
+	
 		<div class="row padding100">
 		<span class=showcase-number>Showcase 1 of 5</span>
 
@@ -340,6 +354,18 @@
 		e.preventDefault();
 		$(".about").stop().animate({'height':'0px'},700);
 		
+	 });
+	
+	 $(window).scroll(function () { 
+		y = $(window).scrollTop();
+		if (y >= 690) {
+			$(".top-bar-clone").hide(0);		
+			$(".top-bar").show(0);		
+		} else {
+			$(".top-bar-clone").show(0);		
+			$(".top-bar").hide(0);
+		}
+		//$(".top-bar").html(y);
 	 });
 	 
 	});
