@@ -41,21 +41,21 @@
 
 <ul id="nav">
 
-		<li><a class="nav nav-point" href="#start" title="Next Section"></a><div class=clear></div><a href="#start" class="nav project-name">Project1</a></li>
+		<li><a class="nav nav-point" href="#start" title="Next Section"><p>0</p></a><div class=clear></div><a href="#start" class="nav project-name"><p>Project1</p></a></li>
 
-	    <li><a class="nav nav-point" href="#first .featured" title="Next Section"></a><div class=clear></div><a href="#first .featured" class="nav project-name">Project2</a>
+	    <li><a class="nav nav-point" href="#first .featured" title="Next Section"><p>1</p></a><div class=clear></div><a href="#first .featured" class="nav project-name"><p>Project2</p></a>
 
-	    <li><a class="nav nav-point" href="#second .featured" title="Next Section"></a><div class=clear></div><a href="#second .featured" class="nav project-name">Project3</a></li>
+	    <li><a class="nav nav-point" href="#second .featured" title="Next Section"><p>2</p></a><div class=clear></div><a href="#second .featured" class="nav project-name"><p>Project3</p></a></li>
 
-	    <li><a class="nav nav-point" href="#third .featured" title="Next Section"></a><div class=clear></div><a href="#third .featured" class="nav project-name">Project4</a></li>
+	    <li><a class="nav nav-point" href="#third .featured" title="Next Section"><p>3</p></a><div class=clear></div><a href="#third .featured" class="nav project-name"><p>Project4</p></a></li>
 
-	    <li><a class="nav nav-point" href="#forth .featured" title="Next Section"></a><div class=clear></div><a href="#forth .featured" class="nav project-name">Project5</a></li>
+	    <li><a class="nav nav-point" href="#forth .featured" title="Next Section"><p>4</p></a><div class=clear></div><a href="#forth .featured" class="nav project-name"><p>Project5</p></a></li>
 
 	</ul>
 
 
 	<div class=about>
-		<div class=row style="padding-top:30px;">
+		<div class=row style="padding-top:30px;max-width:1200px;">
 			<div class="four columns">
 			
 						<div class=johnson-s-photo>
@@ -68,29 +68,29 @@
 					<div class="five columns">
 					</div>
 					<div class="seven columns">
-						<p>Hi there, you. Yeah, you right there, looking at my portfolio site right this instant. If you want to contact me, email me at:</p>
+						<p class=padding15>Hi there, you. Yeah, you right there, looking at my portfolio site right this instant. If you want to contact me, email me at:</p>
 					</div>
 				</div>
 				<div class=row>
 					<h2 class=johnson-s-mail><a href="emailto(johnsonc725@gmail.com)" alt="" class="">firstname <span>at</span>gmail<span>dot</span>com</a></h2>
 				</div>
 				<div class=row>
-					<div class="five columns">
-					<p class=small-text>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
+					<div class="five columns show-on-desktops">
+					<p class="small-text padding15">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
 					</p>
 						<p class=small-text>
-It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+							It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
 						</p>
 					</div>
 					<div class="seven columns">
-					<p>Also, you can find me on Pinterest, Twitter (possibly NSFW), & LinkedIn. I'm also mildly active on Flickr, Behanced, and DeviantArt, so catch me if you can.</p>
+					<p class=padding15>Also, you can find me on Pinterest, Twitter (possibly NSFW), & LinkedIn. I'm also mildly active on Flickr, Behanced, and DeviantArt, so catch me if you can.</p>
 					</div>
 				</div>
 			
 			</div>
 		</div>
 		<div class=row style="text-align:right;">
-			<a href="#" data-link="close-about">close!</a>
+			<a href="#" data-link="close-about"><h3>close!</h3></a>
 		</div>
 	</div>
 	<div id="start" class="slide">
@@ -329,12 +329,16 @@ It is a paradisematic country, in which roasted parts of sentences fly into your
 	 
 	 $("a[data-link='about']").click(function (e) {
 		e.preventDefault();
-		$(".about").stop().animate({'height':'500px'});
+		var w = $(window).width();
+		if (w > 700) { var l = '600px'; }
+		if (w > 1200) { var l = '500px'; }
+		if (w <= 960) { var l = '800px'; }
+		$(".about").stop().animate({'height':l},700);
 		
 	 });
 	 $("a[data-link='close-about']").click(function (e) {
 		e.preventDefault();
-		$(".about").stop().animate({'height':'0px'});
+		$(".about").stop().animate({'height':'0px'},700);
 		
 	 });
 	 

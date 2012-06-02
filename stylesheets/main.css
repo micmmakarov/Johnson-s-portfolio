@@ -183,7 +183,6 @@ font-size:15px;
 line-height:21px;
 }
 
-.five, .seven {margin-top:40px;}
 
 span.expand {display:block; margin-top:15px;}
 
@@ -231,8 +230,17 @@ display:block;
 .padding100 {
 padding-top:150px;
 }
-
+.padding15 {
+padding:15px 0px;
+}
+@media only screen and (max-width: 5000px) {
+h2.johnson-s-mail {font-size:67px;padding-top:10px;}
+}
 @media only screen and (max-width: 980px) {
+#nav {
+opacity:0.7;
+}
+
 #start {
 height:750px !important;
 }
@@ -262,19 +270,37 @@ width:40%;
 width:100%;
 }
 
+	.padding15 {
+	padding:15px 15px !important;
 	}
+
+.johnson-s-mail a {font-size:50px; !important}
+
+}
 	
-		@media only screen and (max-width: 400px) {
-			.main-menu li a {
-			font-size:20px;
-			}
-		}
+	
+@media only screen and (max-width: 400px) {
+	.main-menu li a {
+	font-size:20px;
+	}
+.johnson-s-mail a {font-size:27px; !important}
+.hello-text {
+font-size:14px !important;
+line-height:25px;
+}	
+
+.main-menu a:first-child {
+padding-left:5px;
+}
+
+}
 	
 div.orbit-wrapper div.slider-nav span.right {
     background: url(../images/image.png) no-repeat -120px -130px;
 	width:110px;
 	height:120px;
     right: -110px; }
+	
 	div.orbit-wrapper div.slider-nav span.right:hover {
     background: url(../images/image.png) no-repeat -120px -250px;
 	}
@@ -331,7 +357,17 @@ div.orbit-wrapper div.slider-nav span.left {
 		background: url(../images/image.png) no-repeat -260px -275px !important;
 		width:45px;
 		height:42px;
+		overflow:hidden;
+		text-align:right;
+		font-family: 'ospdin', Helvetica Neue, sans-serif;
+		font-size:30px;
 	}
+	.nav-point p {
+	padding-right:15px;
+	padding-top:7px;
+	color:black;
+	}
+	
 	.current {
 	/*background-color: orange;
 	color:black;*/
@@ -353,15 +389,19 @@ width:0px;
 overflow:hidden;
 z-index:99999;
 background:#cc3300;
-height:25px;
+height:43px;
 }
 
-a.project-name:link {
+a.project-name {
 	color:white;
 	text-transform: uppercase;
 	font-family: 'ospdin', Helvetica Neue, sans-serif; 
 	font-size: 26px;
 	text-shadow: 0px -1px 0px #791e00;
+}
+.project-name p {
+padding-top:7px;
+padding-left:15px;
 }
 
 .current-nav {
@@ -399,7 +439,7 @@ line-height:27px;
 font-family: 'classicround', 
 san-serif; color:#072624; 
 text-shadow: 0px 1px 0px #63cbc4;
-width:560px;
+/*width:560px;*/
 }
 
 .eight .five p.small-text {
@@ -411,4 +451,9 @@ margin-bottom:10px;
 line-height: 16px;
 }
 
-h2.johnson-s-mail {font-size:67px;}
+
+.johnson-s-photo img {
+max-width:400px;
+margin:auto;
+display:block;
+}
