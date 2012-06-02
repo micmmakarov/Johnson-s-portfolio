@@ -478,6 +478,7 @@ width:100%;
 background:rgba(0,0,0,0.15);
 box-shadow: inset 0px -5px 15px rgba(0,0,0,0.1);
 display:none;
+cursor:pointer;
 }
 .top-bar-clone {
 position:absolute;

@@ -36,9 +36,9 @@
 </head>
 <body>
 
-<div class=top-bar>
+<a class=top-bar class="nav" href="#start">
 	<div class=triangle-up></div>
-</div>
+</a>
 
 <div class=left-slide>
 <h1><a class=close-left-slide href="#">Close this slide</a></h1>
@@ -100,7 +100,7 @@
 	</div>
 	<div id="start" class="slide">
 		<div class=row>
-			<h1>FirstNameJohnson</h1>
+			<h1 class=main-logo>FirstNameJohnson</h1>
 			<h6>PORTFOLIO OF JOHNSON CHEN</h6>
 			<ul class=main-menu>
 				<li><a href="#">Portfolio</a></li>
@@ -109,9 +109,9 @@
 				<li><a href="#" data-link="about">About/contact</a></li>
 			</ul>
 			<div class=clear></div>
-			<p class=hello-text>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+			<p class=hello-text><span class=hello-text-content>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
             Aenean commodo ligula eget dolor. Aenean matta. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.
-			</p>
+			</span></p>
 		</div>
 		<a class="nav black-triangle" href="#first .featured">&nbsp;
 		</a>
@@ -354,7 +354,10 @@
 	 });
 	 $("a[data-link='close-about']").click(function (e) {
 		e.preventDefault();
-		$(".about").stop().animate({'height':'0px'},700);
+		$(".about").css({'margin-top':'0px'});
+		$(".about").stop().delay(0).animate({'margin-top':'1000px'},2000);
+		$(".about").stop().delay(500).animate({'height':'0px'},0);
+		$(".about").delay(500).animate({'margin-top':'0px'},0);
 		
 	 });
 	
@@ -362,14 +365,38 @@
 		y = $(window).scrollTop();
 		if (y >= 690) {
 			$(".top-bar-clone").hide(0);		
-			$(".top-bar").show(0);		
+			$(".top-bar").show(0);
+			$(".about").stop().delay(500).animate({'height':'0px'},0);			
 		} else {
 			$(".top-bar-clone").show(0);		
-			$(".top-bar").hide(0);
+			$(".top-bar").hide(0);              
 		}
 		//$(".top-bar").html(y);
 	 });
-	 
+
+
+		$(".main-logo").css("margin-left","-1000px");
+		$(".main-logo").animate({"margin-left":"0"},1000);
+		$(".black-triangle").hide(0);
+		$(".black-triangle").delay(7000).fadeIn(1000);
+		
+		var text_box = $(".hello-text span");
+		var text = text_box.text();
+		text_box.html("");
+		var counter = 0;
+		var exit = text.length;
+		l=20;
+		
+		function type() {
+			text_box.append(text.substr(counter,1));
+			if (text.substr(counter,1)==' ') {l=30;} else {l=20;} // If space then wait longer
+			if (text.substr(counter,1)=='.') {l=100;}
+			counter ++;
+			if (counter < exit) setTimeout(type, l);
+		}
+			setTimeout(type, 100);
+		
+		
 	});
 	</script>
 
