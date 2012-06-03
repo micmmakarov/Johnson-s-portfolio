@@ -702,6 +702,25 @@ content:' ';
 float:left;
 margin-right:5px;
 }
+
 .arrow-down:hover {
 background-position: -95px -511px;
+}
+
+.project-popup{
+margin:0;
+margin-bottom:10px;
+}
+
+.project-popup h2, .project-popup .subtitle {
+margin:0; 
+padding:0; 
+margin-bottom:5px;
+}
+
+.popup-text {
+font-size:15px; 
+line-height: 21px; 
+color:#f7f7f7; 
+text-shadow:1px 1px 1px rgba(0,0,0,0.7);
 }
