@@ -64,8 +64,19 @@
 	width:100%;
 
 }
-#forth {
+
+#fourth {
 	background:url(../images/bg/backgrounds-4-opt.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	height: 1000px;
+	margin: 0 auto;
+
+	width:100%;
+
+	}
+
+#fifth {
+	background:url(../images/bg/backgrounds-5-opt.jpg) 50% 0 no-repeat fixed;
 	color: white;
 	height: 1000px;
 	margin: 0 auto;
@@ -183,6 +194,7 @@ color:#333;
 display:block;
 color:#666666;
 padding-bottom:10px;
+margin-left:62px;
 /* text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); 
             filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99FFFFFF,endColorstr=#99FFFFFF);
             zoom: 1;  
@@ -205,14 +217,16 @@ line-height:41px;
 color:white;
 margin-bottom:10px; 
 text-transform:uppercase;
-margin-left:40px;
+margin-left:80px;
 }
 
-span.subtitle {color:#339999; text-transform:capitalize;
-margin-left:40px;
+span.subtitle {
+color:#339999; 
+text-transform:capitalize;
+margin-left:80px;
 }
 
-.johnson-set-paddings2 {padding:20px;}
+.johnson-set-paddings2 {0px; width:500px;}
 
 .main-menu a:link {color:#444444; text-shadow:0px 1px 0px white; box-shadow:none; }
 .main-menu a:visited {color:#444444;}
@@ -323,7 +337,7 @@ div.orbit-wrapper div.slider-nav span.right {
     background: url(../images/image.png) no-repeat -120px -130px;
 	width:110px;
 	height:120px;
-    right: -110px; }
+    right: -150px; }
 	
 	div.orbit-wrapper div.slider-nav span.right:hover {
     background: url(../images/image.png) no-repeat -120px -250px;
@@ -334,7 +348,7 @@ div.orbit-wrapper div.slider-nav span.left {
     background: url(../images/image.png) no-repeat -5px -130px;
 	width:110px;
 	height:125px;
-    left: -110px; }
+    left: -130px; }
 	div.orbit-wrapper div.slider-nav span.left:hover {
     background: url(../images/image.png) no-repeat -5px -250px;
 	}
@@ -343,7 +357,7 @@ div.orbit-wrapper div.slider-nav span.left {
 	
 	ul.orbit-bullets li {
     float: left;
-    margin-left: 0px;
+    margin-left: -5px;
     cursor: pointer;
     color: #999;
     text-indent: -9999px;
@@ -361,9 +375,10 @@ div.orbit-wrapper div.slider-nav span.left {
     position: absolute;
     z-index: 30;
     list-style: none;
-    top: -30px;
+    top: -35px;
 	right:0px;
     padding: 0;
+    margin-bottom: 20px;
 	}
 	
 	.left-slide {
@@ -452,7 +467,6 @@ z-index:999999;
 
 .h2 span {
 font-size:18px;
-color:grey !important;
 }
 
 .johnson-s-photo {
@@ -604,11 +618,19 @@ margin-right:5px;
 
 }
 .expand a {
-color:red;
+color:#cc3300;	
 }
 .expand a:hover {
-color:green;
+color:#399;
+
+  -webkit-transition: all 0.3s ease-out; 
+     -moz-transition: all 0.3s ease-out; 
+      -ms-transition: all 0.3s ease-out; 
+       -o-transition: all 0.3s ease-out; 
+          transition: all 0.3s ease-out;
+
 }
+
 .orbit-wrapper {
 max-width:860px;
 margin:auto;
@@ -616,3 +638,33 @@ margin:auto;
 .top_paddings {
 padding-top:20px;
 }
+
+.white {text-shadow:0px 1px 0px rgba(255,255,255,0.8) !important;}
+h2.blackshadow {text-shadow:1px 1px 0px rgba(0,0,0,0.2);}
+p.white {color:#003333;}
+
+div.row {margin-top:-10px;}
+
+#footer-slide {padding-top:10px;}
+#footer-slide p {
+	color: #072624;
+	font-size: 34px;
+	font-family: 'classicround', serif;
+	line-height: 40px;
+	text-shadow: 0px 1px #9ddadf;
+	width:550px;
+	margin:auto;
+		margin-top:100px;
+		margin-bottom:40px;
+
+}
+
+#footer-slide p:last-child {margin-top:50px; margin-bottom:0px;}
+	span.one {color:white; text-shadow:0px -1px 0px #072624;}
+		span.two {color:#114844; text-shadow: 0px 1px 0px #9ddadf;}
+
+#footer-slide .johnson-s-mail {margin: auto;}	
+
+	
+a.johnson-s-mail span {font-size:12px; display: block;  color:black;}
+	
