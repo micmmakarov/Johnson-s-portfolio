@@ -109,7 +109,6 @@
 </div>
 
 <ul id="nav">
-
 		<li><a class="nav nav-point" href="#start" title="Next Section"><p>0</p></a><div class=clear></div><a href="#start" class="nav project-name"><p>Start page</p></a></li>
 
 	    <li><a class="nav nav-point" href="#first .featured" title="Next Section"><p>1</p></a><div class=clear></div><a href="#first .featured" class="nav project-name"><p>Project1</p></a>
@@ -123,7 +122,8 @@
 	    <li><a class="nav nav-point" href="#fifth .featured" title="Next Section"><p>5</p></a><div class=clear></div><a href="#fifth .featured" class="nav project-name"><p>Project5</p></a></li>
 
 	    <li><a class="nav nav-point" href="#footer-slide" title="Next Section"><p>6</p></a><div class=clear></div><a href="#footer-slide" class="nav project-name"><p>Footer</p></a></li>
-
+		<div class="arrow-up"></div>
+		<div class="arrow-down"></div>
 	</ul>
 
 
@@ -576,7 +576,19 @@
 		}
 			setTimeout(type, 100);
 		
-		
+			$(".arrow-up").click(function () {
+				link = $(".current-nav");				
+				current_link = link.attr("href");
+				before_link = link.parent().prev().find("a").attr("href");
+				$(window).scrollTo(before_link,1000);
+			});
+			$(".arrow-down").click(function () {
+				link = $(".current-nav");				
+				current_link = link.attr("href");
+				next_link = link.parent().next().find("a").attr("href");
+				$(window).scrollTo(next_link, 1000);
+			});
+
 	});
 	</script>
 
