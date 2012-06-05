@@ -157,7 +157,7 @@ clear:both;
 	font-size:34px;
 	line-height:38px; 
 		width:80%;
-	margin:50px auto;
+	margin:25px auto;
 	text-shadow:3px 5px #f0f0f0;
 	color:#474747;
 	}
@@ -247,7 +247,7 @@ background: url(../images/image.png) no-repeat left -676px;
 width:190px;
 height:150px;
 position:absolute;
-bottom:0px;
+bottom:10px;
 margin-left:-95px;
 left:50%;
 cursor:pointer;
@@ -275,8 +275,57 @@ padding:15px 0px;
 h2.johnson-s-mail {
 font-size:67px;padding-top:10px;}
 
+.image-wrap img{
+width:auto;
+height:569px;
+box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+border:4px solid white;
+margin:auto;
+display:block;
+float:right;
 }
+.m-slider {
+float:right;
+width:700px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 1470px) {
+.m-slider {
+float:right;
+width:100% !important;
+float:none !important;
+}
+.image-wrap img {
+height:auto !important;
+float:none !important;
+margin:auto;
+}
+.image-wrap {
+margin:auto;
+float:none;
+}
+
+}
+
 @media only screen and (max-width: 980px) {
+.m-slider {
+float:right;
+width:100% !important;
+float:none !important;
+}
+.image-wrap img {
+height:auto !important;
+float:none !important;
+margin:auto;
+}
+.image-wrap {
+margin:auto;
+float:none;
+}
 .green-line {
 margin-left:-40px;
 }
@@ -553,17 +602,11 @@ background:white;
 box-shadow: 2px 2px 3px rgba(0,0,0,0.5);*/
 
 }
-.image-wrap img{
-width:auto;
-max-height:450px;
-box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
-border:4px solid white;
-margin:auto;
-display:block;
-}
-.m-slider {
 
+.m-slider:after {
+clear:both;
 }
+
 .m-slider-info {
 text-align:right;
 display:block;
@@ -769,4 +812,26 @@ margin:auto;
 cursor:pointer;
 display:block;
 content:' ';
+}
+.johnson-s-logo {
+background: url(../images/image.png) no-repeat left top;
+width:385px;
+margin:auto;
+height:100px;
+cursor:pointer;
+display:block;
+content:' ';
+}
+.sub-menu {
+max-width:500px;
+margin:auto;
+}
+
+.sub-menu li {
+float:left;
+width:25%;
+text-align:center;
+}
+.sub-menu li:last-child:after {
+clear:both;
 }

@@ -172,16 +172,25 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 	
 	<div id="start" class="slide">
 		<div class=row>
-			<h1 class=main-logo>FirstNameJohnson</h1>
-			<h6>PORTFOLIO OF JOHNSON CHEN</h6>
+			<h1 class="main-logo johnson-s-logo"></h1>
 			<ul class=main-menu>
 				<li><a href="#">Portfolio</a></li>
 				<li><a href="#">Blog</a></li>
 				<li><a href="#">Freebies</a></li>
 				<li><a href="#" data-link="about">About/contact</a></li>
 			</ul>
+			
 			<div class="green-line">
 			</div>
+			
+			<ul class=sub-menu>
+				<li><a href="#">Showcase</a></li>
+				<li><a href="#">Showcase2</a></li>
+				<li><a href="#">Photos</a></li>
+				<li><a href="#">Everything Else</a></li>
+			</ul>
+			
+
 			<div class=clear></div>
 			<p class=hello-text><span class=hello-text-content>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
             Aenean commodo ligula eget dolor. Aenean matta. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.
@@ -514,7 +523,7 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 	 $("a[data-link='close-about']").click(function (e) {
 		e.preventDefault();
 		$(".about").css({'margin-top':'0px'});
-		$(".about").stop().delay(0).animate({'margin-top':'1700px'},2000);
+		$(".about").stop().delay(0).animate({'margin-top':'-700px'},2000);
 		$(".about").stop().delay(500).animate({'height':'0px'},0);
 		$(".about").delay(500).animate({'margin-top':'0px'},0);
 
@@ -559,8 +568,8 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 	 });
 
 
-		$(".main-logo").css("margin-left","-1000px");
-		$(".main-logo").animate({"margin-left":"0"},1000);
+		//$(".main-logo").css("margin-left","-1000px");
+		$(".main-logo").animate({"margin":"auto"},1000);
 		$(".black-triangle").hide(0);
 		$(".black-triangle").delay(7000).fadeIn(1000);
 		
