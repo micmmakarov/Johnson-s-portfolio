@@ -220,7 +220,7 @@ font-family: 'ospdin', Helvetica Neue, sans-serif;
 font-size:41px; 
 line-height:41px; 
 color:white;
-margin-bottom:10px; 
+margin-bottom:1px; 
 text-transform:uppercase;
 margin-left:80px;
 }
@@ -434,7 +434,7 @@ div.orbit-wrapper div.slider-nav span.left {
 	
 	ul.orbit-bullets li.active {
     color: #222;
-    background-position: -6px -390px; }
+    background-position: 1px -390px; }
 	
 	
 	ul.orbit-bullets {
@@ -543,7 +543,7 @@ box-shadow:1px 1px 2px rgba(0,0,0,0.2);
 
 div.about .seven p {
 font-size:21px; 
-line-height:27px;
+line-height:25px;
 font-family: 'classicround', 
 san-serif; color:#072624; 
 text-shadow: 0px 1px 0px #63cbc4;
@@ -555,8 +555,10 @@ color:#0e3b39;
 text-shadow: 0px 1px 0px #51c2b7; 
 font-size:14px; 
 font-family:'asap', san-serif;
-margin-bottom:10px;
-line-height: 16px;
+margin-bottom:0px;
+line-height: 17px;
+margin-top:5px;
+text-align: justify;
 }
 
 
@@ -565,6 +567,10 @@ max-width:400px;
 margin:auto;
 display:block;
 }
+
+div.about .seven p.social {font-size:32px; line-height:33px; padding-bottom:5px;}
+	div.about .seven p.social span {color:white; text-shadow:0px -1px 0px #103F40;}
+		div.about .seven p.social span.one {color:#114844; text-shadow: 0px 1px 0px #9DDADF; font-size:20px;}
 
 .back-to-the-top {
 background: url(../images/image.png) no-repeat -258px -375px;
@@ -743,13 +749,17 @@ div.row {margin-top:-10px;}
 		span.two {color:#114844; text-shadow: 0px 1px 0px #9ddadf;}
 
 
+.about-email h2 {margin-left:37px; padding-bottom:25px; margin-top:20px;}	
+
 #footer-slide a.johnson-email h2 {margin: auto; margin-left:0px !important;}	
 
 a.johnson-email h2 {
 font-size:67px; 
 padding-top:10px;
+text-shadow:0px -1px 0px #103f40;
 }
 
+a.johnson-email span {font-size:48px; color:#114844; text-shadow:0px 1px #9DDADF; }
 		
 .arrow-up {
 display:block;
@@ -838,7 +848,7 @@ display:block;
 content:' ';
 }
 .sub-menu {
-max-width:470px;
+max-width:510px;
 margin:auto;
 }
 
