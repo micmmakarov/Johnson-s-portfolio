@@ -40,6 +40,18 @@
 	<div class=triangle-up></div>
 </a>
 
+<div class="green-bar">
+	<div class=white-johnson></div>
+	<a href="#start" class="nav back-to-the-top right"></a>
+	<ul class="row" style="max-width:800px;">
+		<li><a class=active>Showcase</a></li>
+		<li><a>Showcase2</a></li>
+		<li><a>Photography</a></li>
+		<li><a>Everything Else</a></li>
+	</ul>
+
+</div>
+
 <div class=left-slide>
 <div class="left-slide-content">
 
@@ -203,9 +215,9 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 		
 		
 	<div id="first" class="slide">
-		<a class="nav top-bar-clone" href="#start">
+	<!--	<a class="nav top-bar-clone" href="#start">
 			<div class=triangle-up></div>
-		</a>
+		</a> -->
 
 	
 		<div class="row padding100">
@@ -600,6 +612,16 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 				current_link = link.attr("href");
 				next_link = link.parent().next().find("a").attr("href");
 				$(window).scrollTo(next_link, 1000);
+			});
+
+			$(".top-bar").hover(function() {
+				$(".green-bar").stop().animate({top:'0px'});
+			}, function () {
+				//$(".green-bar").stop().animate({top:'-50px'});			
+			});
+			$(".green-bar").hover(function() {},
+			function () {
+				$(".green-bar").animate({top:'-70px'});			
 			});
 
 	});

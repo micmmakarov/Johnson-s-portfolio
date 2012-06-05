@@ -26,7 +26,7 @@
 #start {
 	background:#f8f8f8 50% -75px no-repeat fixed;
 	color: black;
-	height: 650px;
+	height: 700px;
 	margin: 0 auto;
 	padding: 30px 0 0 0;
 	width:100%;
@@ -312,6 +312,9 @@ float:none;
 }
 
 @media only screen and (max-width: 980px) {
+.slide .row {
+overflow:hidden;
+}
 .m-slider {
 float:right;
 width:100% !important;
@@ -450,7 +453,7 @@ div.orbit-wrapper div.slider-nav span.left {
 	right:0;
 	top:0;
 	z-index:99999;
-	min-height:700px;
+	min-height:1000px;
 	width:0px;
 	background:rgba(0,0,0,0.8);
 	overflow:hidden;
@@ -574,7 +577,20 @@ display:block;
 margin-top:9px;
 content:' ';
 }
+.right {
+position:absolute;
+right:10px;
+top:7px;
+}
+.left {
+position:absolute;
+left:0;
+top:5px;
+}
 
+.right:after; {
+clear:both;
+}
 .top-bar {
 position:fixed;
 height:30px;
@@ -834,4 +850,53 @@ text-align:center;
 }
 .sub-menu li:last-child:after {
 clear:both;
+}
+html {
+overflow-x:hidden;
+}
+
+.green-bar {
+	position:fixed;
+	right:0;
+	top:-70px;
+	z-index:99999;
+	padding:0px;
+	height:44px;
+	width:100%;
+	background:rgba(0,0,0,0.8);
+	/* overflow:hidden; */
+	background:url(../images/bg/about-background.png);
+	box-shadow: inset 0px -5px 15px rgba(0,0,0,0.1);
+	content:' ';
+	}
+.green-bar .row li {
+float:left;
+width:25%;
+}
+.green-bar .row li a {
+width:125px;
+padding-top:10px;
+height:60px;
+display:block;
+margin:auto;
+text-align:center;
+cursor:pointer;
+}
+.green-bar .row li a:hover {
+/*background: url(../images/image.png) no-repeat -258px -204px;*/
+}
+.green-bar .row li a.active {
+background: url(../images/image.png) no-repeat -258px -204px;
+}
+
+
+.white-johnson {
+background: url(../images/image.png) no-repeat left -835px;
+width:260px;
+height:38px;
+content:' ';
+position:absolute;
+left:0px;
+top:0px;
+
 }
