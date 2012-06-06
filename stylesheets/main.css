@@ -217,21 +217,22 @@ line-height:21px;
 
 h2 {
 font-family: 'ospdin', Helvetica Neue, sans-serif; 
-font-size:41px; 
-line-height:41px; 
+font-size:50px; 
+line-height:44px; 
 color:white;
-margin-bottom:1px; 
+margin-bottom:5px; 
 text-transform:uppercase;
-margin-left:80px;
+margin-left:120px;
 }
 
 span.subtitle {
 color:#339999; 
 text-transform:capitalize;
-margin-left:80px;
+margin-left:122px;
 }
 
-.johnson-set-paddings2 {max-width:500px;}
+.johnson-set-paddings2 {margin-left:-20px; max-width:500px;}
+
 
 .main-menu a:link {color:#444444; text-shadow:0px 1px 0px white; box-shadow:none; }
 .main-menu a:visited {color:#444444;}
@@ -250,7 +251,7 @@ margin-left:80px;
 .black-triangle {
 background: url(../images/image.png) no-repeat left -676px;
 width:190px;
-height:150px;
+height:152px;
 position:absolute;
 bottom:10px;
 margin-left:-95px;
@@ -506,8 +507,10 @@ a.project-name {
 	text-shadow: 0px -1px 0px #791e00;
 }
 .project-name p {
-padding-top:7px;
+padding-top:8px;
 padding-left:15px;
+height:24px;
+overflow:hidden;
 }
 
 .current-nav {
@@ -558,6 +561,7 @@ font-family:'asap', san-serif;
 margin-bottom:0px;
 line-height: 17px;
 margin-top:5px;
+margin-left:-20px;
 text-align: justify;
 }
 
@@ -569,8 +573,10 @@ display:block;
 }
 
 div.about .seven p.social {font-size:32px; line-height:33px; padding-bottom:5px;}
-	div.about .seven p.social span {color:white; text-shadow:0px -1px 0px #103F40;}
-		div.about .seven p.social span.one {color:#114844; text-shadow: 0px 1px 0px #9DDADF; font-size:20px;}
+		div.about .seven p.social span {color:#114844; text-shadow: 0px 1px 0px #9DDADF; font-size:20px;}
+		
+		p.social a {color:white; text-shadow:0px -1px 0px #103F40;}
+				p.social a:hover {font-size:34px;}
 
 .back-to-the-top {
 background: url(../images/image.png) no-repeat -258px -375px;
@@ -737,14 +743,14 @@ div.row {margin-top:-10px;}
 	font-family: 'classicround', serif;
 	line-height: 40px;
 	text-shadow: 0px 1px #9ddadf;
-	max-width:550px;
+	max-width:700px;
 	margin:auto;
 		margin-top:100px;
 		margin-bottom:40px;
 
 }
 
-#footer-slide p:last-child {margin-top:50px; margin-bottom:0px;}
+#footer-slide p:last-child {margin-top:50px; margin-bottom:0px; width:600px;}
 	span.one {color:white; text-shadow:0px -1px 0px #072624;}
 		span.two {color:#114844; text-shadow: 0px 1px 0px #9ddadf;}
 
@@ -760,6 +766,7 @@ text-shadow:0px -1px 0px #103f40;
 }
 
 a.johnson-email span {font-size:48px; color:#114844; text-shadow:0px 1px #9DDADF; }
+
 		
 .arrow-up {
 display:block;
