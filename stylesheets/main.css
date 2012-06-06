@@ -428,14 +428,14 @@ div.orbit-wrapper div.slider-nav span.left {
     cursor: pointer;
     color: #999;
     text-indent: -9999px;
-    background: url(../images/image.png) no-repeat -32px -390px;
-    width: 30px;
+    background: url(../images/image.png) no-repeat -35px -390px;
+    width: 35px;
     height: 30px;
     overflow: hidden; }
 	
 	ul.orbit-bullets li.active {
     color: #222;
-    background-position: 1px -390px; }
+    background-position: -1px -390px; }
 	
 	
 	ul.orbit-bullets {
