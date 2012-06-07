@@ -24,7 +24,7 @@
 
 
 #start {
-	background:#f8f8f8 50% -75px no-repeat fixed;
+	background:url(../images/bg/homepage-bg-opt.jpg) -75px no-repeat fixed;
 	color: black;
 	height: 700px;
 	margin: 0 auto;
@@ -936,4 +936,11 @@ position:absolute;
 left:0px;
 top:0px;
 
+}
+
+.p {
+z-index:9999;
+}
+.johnson-canvas {
+overflow:hidden;
 }
