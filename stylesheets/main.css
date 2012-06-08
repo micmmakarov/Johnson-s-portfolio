@@ -157,8 +157,8 @@ clear:both;
 	text-align:left; 
 	font-family:classicround, georgia, serif;
 	font-size:34px;
-	line-height:38px; 
-		width:80%;
+	line-height:45px; 
+		width:90%;
 	margin:45px auto;
 	text-shadow:3px 5px #f0f0f0;
 	color:#474747;
@@ -532,6 +532,7 @@ overflow:hidden;
 position:absolute;
 top:0;
 z-index:999999;
+box-shadow: inset 0px -5px 5px rgba(0,0,0,0.1), 0px 2px 5px rgba(0,0,0,0.2);
 }
 
 .h2 span {
@@ -750,7 +751,7 @@ div.row {margin-top:-10px;}
 
 }
 
-#footer-slide p:last-child {margin-top:50px; margin-bottom:0px; width:600px;}
+#footer-slide p:last-child {margin-top:50px; margin-bottom:0px; width:640px;}
 	span.one {color:white; text-shadow:0px -1px 0px #072624;}
 		span.two {color:#114844; text-shadow: 0px 1px 0px #9ddadf;}
 
@@ -764,6 +765,8 @@ font-size:67px;
 padding-top:10px;
 text-shadow:0px -1px 0px #103f40;
 }
+
+a.johnson-email h2:hover {font-size: 68px;}
 
 a.johnson-email span {font-size:48px; color:#114844; text-shadow:0px 1px #9DDADF; }
 
