@@ -231,6 +231,7 @@ text-transform:capitalize;
 margin-left:122px;
 }
 
+span.uc {color:gray; font-size: 10px; text-transform:uppercase; letter-spacing: 0.1em;}
 .johnson-set-paddings2 {margin-left:-20px; max-width:500px;}
 
 
@@ -715,12 +716,6 @@ color:#cc3300;
 .expand a:hover {
 color:#399;
 
-  -webkit-transition: all 0.3s ease-out; 
-     -moz-transition: all 0.3s ease-out; 
-      -ms-transition: all 0.3s ease-out; 
-       -o-transition: all 0.3s ease-out; 
-          transition: all 0.3s ease-out;
-
 }
 
 .orbit-wrapper {
@@ -763,7 +758,7 @@ div.row {margin-top:-10px;}
 a.johnson-email h2 {
 font-size:67px; 
 padding-top:10px;
-text-shadow:0px -1px 0px #103f40;
+text-shadow:-1px -1px 0px #103f40;
 }
 
 a.johnson-email h2:hover {font-size: 68px;}
@@ -945,4 +940,21 @@ top:0px;
 z-index:9999;
 }
 .johnson-canvas {
+}
+
+/* homepage p click and drag */
+div.cta {
+font-size:12px; 
+letter-spacing: 0.1em; 
+color:#999; 
+text-shadow: 0px 1px 0px white; 
+display: block; 
+text-align: left; 
+width:207px; 
+line-height: 15px;
+margin-left:11%;
+}
+
+div.cta span{
+	color:#399;
 }
