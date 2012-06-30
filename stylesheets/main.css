@@ -1,3 +1,11 @@
+.slide {
+left:3000px;
+}
+body {
+background:url(../images/bg/homepage-bg-opt.jpg) no-repeat;
+background-size:cover;
+background-attachment:fixed;
+}
 @font-face {
     font-family: 'ospdin';
     src: url('../fonts/OSP-DIN-webfont.eot');
@@ -24,7 +32,7 @@
 
 
 #start {
-	background:url(../images/bg/homepage-bg-opt.jpg) -75px no-repeat fixed;
+	/* background:url(../images/bg/homepage-bg-opt.jpg) -75px no-repeat fixed; */
 	color: black;
 	height: 700px;
 	margin: 0 auto;
@@ -157,11 +165,14 @@ clear:both;
 	font-family:classicround, georgia, serif;
 	font-size:34px;
 	line-height:45px; 
-		width:90%;
 	margin:45px auto;
 	text-shadow:3px 5px #f0f0f0;
 	color:#474747;
+	
 	}
+.hello-text-content {
+/*position:absolute;*/
+}
 
 body {
 	font-family: 'asap', tahoma, san-serif;
@@ -364,6 +375,7 @@ top:80% !important;
 }
 .hello-text {
 	font-size:24px;
+	
 	}
 .main-menu li {
 margin-right:0px;
@@ -908,7 +920,7 @@ width:25%;
 .green-bar .row li a {
 width:125px;
 padding-top:13px;
-height:60px;
+height:47px;
 display:block;
 margin:auto;
 text-align:center;
@@ -938,6 +950,9 @@ top:0px;
 
 .p {
 z-index:9999;
+position:absolute;
+top:50px;
+left:170px;
 }
 .johnson-canvas {
 }
@@ -957,4 +972,8 @@ margin-left:11%;
 
 div.cta span{
 	color:#399;
+}
+
+.cta_box {
+padding-left:150px;
 }
