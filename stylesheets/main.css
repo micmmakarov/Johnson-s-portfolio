@@ -20,7 +20,7 @@ background-attachment:fixed;
 
 @font-face {
     font-family: 'classicround';
-    src: url('../fonts/classic-round/ClassicRound-Medium-webfont.eot');
+	src: url('../fonts/classic-round/ClassicRound-Medium-webfont.eot');
     src: url('../fonts/classic-round/ClassicRound-Medium-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/classic-round/ClassicRound-Medium-webfont.woff') format('woff'),
          url('../fonts/classic-round/ClassicRound-Medium-webfont.ttf') format('truetype'),
@@ -168,11 +168,12 @@ clear:both;
 	margin:45px auto;
 	text-shadow:3px 5px #f0f0f0;
 	color:#474747;
-	
+	max-width:720px
 	}
 .hello-text-content {
 /*position:absolute;*/
 }
+
 
 body {
 	font-family: 'asap', tahoma, san-serif;
