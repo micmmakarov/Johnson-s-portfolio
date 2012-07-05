@@ -33,6 +33,7 @@ background-attachment:fixed;
 
 #start {
 	/* background:url(../images/bg/homepage-bg-opt.jpg) -75px no-repeat fixed; */
+	background:white;
 	color: black;
 	height: 700px;
 	margin: 0 auto;
@@ -675,11 +676,14 @@ padding:20px 0px;
 .close {
 background: url(../images/image.png) no-repeat -256px -536px;
 width:90px;
-height:47px;
+height:40px;
 margin:auto;
 cursor:pointer;
 display:block;
 float:right;
+position:absolute;
+bottom:0px;
+right:20px;
 content:' ';
 }
 .close:after {
@@ -1000,7 +1004,10 @@ padding-left:150px;
 background: url(../images/image.png) no-repeat -9px -900px;
 width:170px;
 height:110px;
-margin:auto;
+margin-left:-85px;
+position:absolute;
+bottom:0;
+left:50%;
 cursor:pointer;
 display:block;
 content:' ';
