@@ -104,6 +104,63 @@ background-attachment:fixed;
 
 
 }
+
+
+
+/* showcase2 page */
+
+#sc2-first { 
+	background:url(../images/portfolio-images/2-showcase2/backgrounds/1-diagmonds.png) 50% 0 fixed;
+	color: white;
+	height: 1000px;
+	margin: 0 auto;
+
+	width:100%;
+
+}
+
+#sc2-second {
+	background:url(../images/portfolio-images/2-showcase2/backgrounds/2-subtle_zebra_3d.png) 50% 0 fixed;
+	color: white;
+	height: 1000px;
+	margin: 0 auto;
+
+	width:100%;
+
+
+}
+
+#sc2-third {
+	background:url(../images/portfolio-images/2-showcase2/backgrounds/3-px_by_Gre3g.png) 50% 0 fixed;
+	color: white;
+	height: 1000px;
+	margin: 0 auto;
+
+	width:100%;
+
+}
+
+#sc2-fourth {
+	background:url(../images/portfolio-images/2-showcase2/backgrounds/4-bright_squares.png) 50% 0 fixed;
+	color: white;
+	height: 1000px;
+	margin: 0 auto;
+
+	width:100%;
+
+	}
+
+#sc2-fifth {
+	background:url(../images/portfolio-images/2-showcase2/backgrounds/5-black_paper.png) 50% 0 fixed;
+	color: white;
+	height: 1000px;
+	margin: 0 auto;
+
+	width:100%;
+
+	}
+
+
 	
 #footer {
 background:black;
