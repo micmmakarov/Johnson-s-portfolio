@@ -38,31 +38,6 @@
 </head>
 <body>
 
-
-
-
-<style>
-.slide {
-left:0px;
-}
-</style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <a class="nav top-bar" href="#start">
 	<div class=triangle-up></div>
 </a>
@@ -140,60 +115,6 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 
 
 
-	<div id="start" class="slide hideble">
-		<div class=row>
-			<h1 class="main-logo johnson-s-logo"></h1>
-			<ul class="main-menu hideble">
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Freebies</a></li>
-				<li><a href="#" data-link="about">About/contact</a></li>
-			</ul>
-			
-			<div class="green-line">
-			</div>
-			
-			<ul class="sub-menu hideble">
-				<li><a href="index.html">Showcase</a></li>
-				<li><a href="sc2.html" class=active>Showcase2</a><div class="small-triangle"></div></li>
-				<li><a href="#">Photography</a></li>
-				<li><a href="#">Everything Else</a></li>
-			</ul>
-			
-
-			<div class=clear></div>
-			<p class="hello-text">
-				<span class="hello-text-content">
-					Real world projects, client work&mdash; as Will Ferrell might say &ldquo;Gets the people going!&rdquo; Below are a few selected client projects, ranging from print to web to things that fall in between the proverbial creative seat cushions.
-				</span>
-			</p>
-			
-			<div class="johnson-canvas showable row show-on-desktops">
-				
-				<div class="six columns showable ">
-				<div class=cta_box>
-						<div class="cta">Aww crap! I messed up the link. Can you put it back for me? <span>Click &amp; Drag &rarr;</span></div>
-				</div>
-					<img class=p src="images/P.png" />
-				</div>
-				<div class="six columns">
-					<img class="before showable" src="images/hp-project-before.png" />
-				</div>
-				
-			</div>
-			
-		</div>
-		<a class="nav black-triangle hideble" href="#first .featured">&nbsp;
-		</a>
-		</div>
-
-
-
-
-
-
-
-
 
 
 
@@ -261,14 +182,11 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 		</div>
 			<a href="#" data-link="close-about" class=close></a>
 	</div>
+	
+		
 
-
-
-
-
-
-
-<div id="start" class="slide hideble">
+	
+	<div id="start" class="slide hideble">
 		<div class=row>
 			<h1 class="main-logo johnson-s-logo"></h1>
 			<ul class="main-menu hideble">
@@ -282,8 +200,8 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 			</div>
 			
 			<ul class="sub-menu hideble">
-				<li><a href="index.html">Showcase</a></li>
-				<li><a href="sc2.html" class=active>Showcase2</a><div class="small-triangle"></div></li>
+				<li><a href="#" class=active>Showcase</a><div class="small-triangle"></div></li>
+				<li><a href="#">Showcase2</a></li>
 				<li><a href="#">Photography</a></li>
 				<li><a href="#">Everything Else</a></li>
 			</ul>
@@ -296,29 +214,28 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 				</span>
 			</p>
 			
-			
+			<div class="johnson-canvas showable row show-on-desktops">
+				
+				<div class="six columns showable ">
+				<div class=cta_box>
+						<div class="cta">Aww crap! I messed up the link. Can you put it back for me? <span>Click &amp; Drag &rarr;</span></div>
+				</div>
+					<img class=p src="images/P.png" />
+				</div>
+				<div class="six columns">
+					<img class="before showable" src="images/hp-project-before.png" />
+				</div>
+				
+			</div>
 			
 		</div>
 		<a class="nav black-triangle hideble" href="#first .featured">&nbsp;
 		</a>
 		</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-				
-	<div id="sc2-first" class="slide hideble">
+		
+		
+		
+	<div id="first" class="slide hideble">
 	<!--	<a class="nav top-bar-clone" href="#start">
 			<div class=triangle-up></div>
 		</a> -->
@@ -328,10 +245,11 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 		<span class=showcase-number>Showcase 1 of 5</span>
 
 		<div class="featured" id=first-slider> 
-			<img src="images/portfolio-images/2-showcase2/slider1/sp-1.jpg" width="100%" />
-			<img src="images/portfolio-images/2-showcase2/slider1/sp-2.jpg" width="100%" />
-			<img src="images/portfolio-images/2-showcase2/slider1/sp-3.jpg" width="100%" />
-			<img src="images/portfolio-images/2-showcase2/slider1/sp-4.jpg" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider1/1opt.jpg" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider1/o3-2.png" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider1/o3-3.png" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider1/o3-4.png" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider1/o3-5.jpg" width="100%" />
 
 		</div>
 		
@@ -342,15 +260,15 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 
 			<div class="five columns">
 				<div class=johnson-set-paddings1>
-					<h2>Sustainability</h2>
-					<span class=subtitle>concept map &nbsp; / &nbsp; print design</span>
+					<h2>o3 Bistro &amp; Lounge</h2>
+					<span class=subtitle>brand identity &nbsp; / &nbsp; print design</span>
 				</div>
 			</div>
 			
 			<div class="seven columns">
 				<div class=johnson-set-paddings2>
 					<p>
-						In this assignment, a infographic was created to give the uninformed a brief and general overview in regards to sustainability in homes/architecture. Information hierarchy is differenced with font sizes, font weights, colors, and straight &amp; dotted lines. 11 x 17 inches.
+						This asian fusion bistro next to the San Francisco City Hall wanted to leverage it's prime location towards politicians &amp; symphony goers without putting off young professionals. Working off the interior designer's decor plans, typeface and colors were chosen to compliment the inside, as were the creations of the menus and logo. 
    					</p>
 					<span class=expand><a href="#" class="">Expand and View More of This Project in Detail</a></span>
 				</div>
@@ -362,16 +280,20 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 		
 	</div>
 	
-	<div id="sc2-second" class="slide hideble">
+	<div id="second" class="slide hideble">
 	
 		<div class="row padding100">
 		<span class="showcase-number white">Showcase 2 of 5</span>
 
 		<div class="featured" id=first-slider> 
-			<img src="images/portfolio-images/2-showcase2/slider2/abe-1.jpg" width="100%" />
-			<img src="images/portfolio-images/2-showcase2/slider2/abe-2.jpg" width="100%" />
-			<img src="images/portfolio-images/2-showcase2/slider2/abe-3.jpg" width="100%" />
-			<img src="images/portfolio-images/2-showcase2/slider2/abe-4.png" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider2/bmo-1.jpg" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider2/bmo-2.jpg" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider2/bmo-3.jpg" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider2/bmo-4.png" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider2/bmo-5.png" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider2/bmo-6.jpg" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider2/3opt.jpg" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider2/bmo-7.jpg" width="100%" />
 		</div>
 		
 		</div>
@@ -381,16 +303,17 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 
 			<div class="five columns">
 				<div class=johnson-set-paddings1>
-					<h2 class=blackshadow>Who Dat Abe?</h2>
-					<span class="subtitle white">print</span>
+					<h2 class=blackshadow>Blissmo</h2>
+					<span class="subtitle white">print &amp; web &nbsp; / &nbsp; branding &nbsp; / &nbsp; photo</span>
+						<span class="subtitle uc white">&#9649; Currently in development &#9649;</span>
 				</div>
 			</div>
 			
 			<div class="seven columns">
 				<div class=johnson-set-paddings2>
 					<p class=white>
-						Abraham Lincoln: the sixteenth president of the United States of America. Not only is he one of the most important presidents, but is also one of the most popular presidents of all time. Being such a recognizable person with his signature top hat and beard, what would Abe look like if today's popular culture paid homage to him? A2 size.
-						</p>
+						Blissmo.com is an online service whose goal is to help consumers discover sustainable and eco-friendly products. With a logo already on hand, they needed a brand identity that conveys friendliness while maintaing a pro-fessional service. Print &amp; web collateral was created, as well as website, implementation of colors &amp; typefaces and product photos were taken.
+					</p>
 					<span class=expand><a href="#" class="white">Expand and View More of This Project in Detail</a></span>
 				</div>
 			</div>
@@ -400,17 +323,16 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 		
 	</div>
 	
-	<div id="sc2-third" class="slide hideble">
+	<div id="third" class="slide hideble">
 		<div class="row padding100">
 		<span class=showcase-number>Showcase 3 of 5</span>
 
 		<div class="featured" id=first-slider> 
-			<img src="images/portfolio-images/2-showcase2/slider3/tag-1.jpg" width="100%" />
-			<img src="images/portfolio-images/2-showcase2/slider3/tag-2.jpg" width="100%" />
-			<img src="images/portfolio-images/2-showcase2/slider3/tag-3.jpg" width="100%" />
-			<img src="images/portfolio-images/2-showcase2/slider3/tag-4.jpg" width="100%" />
-			<img src="images/portfolio-images/2-showcase2/slider3/tag-5.jpg" width="100%" />
-			<img src="images/portfolio-images/2-showcase2/slider3/tag-6.jpg" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider3/fit-1.jpg" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider3/fit-2.jpg" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider3/fit-3.png" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider3/fit-4.png" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider3/fit-5.png" width="100%" />
 		</div>
 		
 		</div>
@@ -420,15 +342,16 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 
 			<div class="five columns">
 				<div class=johnson-set-paddings1>
-					<h2>Tagline</h2>
-					<span class=subtitle>print &nbsp; / &nbsp; layout</span>
+					<h2>Fitsoft</h2>
+					<span class=subtitle>web design &nbsp; / &nbsp; brand identity</span>
+						<span class="subtitle uc">&#9649; Currently in development &#9649;</span>					
 				</div>
 			</div>
 			
 			<div class="seven columns">
 				<div class=johnson-set-paddings2>
 					<p>
-						Annual letter-sized publication for the campus's advertising club. Black and white on the inside pages, color on the cover. 20 total pages from cover to cover. Subject of this issue was about branding in the new century. Besides the imagery on the cover, the other challenge was to make the text visually dynamic with the limited images and images of quality. 8&frac12; x 11 inches.
+						Fitsoft.com is a web management system for small to big gyms/facility operations in the fitness industry. Aside from also aiming to be the go-to search directory for fitness consumers, their ambitious strategies have since created a bunch of web content and backend CMS that needs a cohesive identity to bring them all together.
 					</p>
 					<span class=expand><a href="#" class="">Expand and View More of This Project in Detail</a></span>
 				</div>
@@ -439,15 +362,16 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 		
 	</div>
 	
-	<div id="sc2-fourth" class="slide hideble">
+	<div id="fourth" class="slide hideble">
 		<div class="row padding100">
 		<span class="showcase-number white">Showcase 4 of 5</span>
 
 		<div class="featured" id=first-slider> 
-			<img src="images/portfolio-images/2-showcase2/slider4/ax-1.jpg" width="100%" />
-			<img src="images/portfolio-images/2-showcase2/slider4/ax-2.jpg" width="100%" />
-			<img src="images/portfolio-images/2-showcase2/slider4/ax-3.jpg" width="100%" />
-			<img src="images/portfolio-images/2-showcase2/slider4/ax-4.jpg" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider4/is-1.jpg" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider4/is-5.jpg" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider4/is-2.png" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider4/is-4.jpg" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider4/is-3.jpg" width="100%" />
 		</div>
 		
 		</div>
@@ -457,16 +381,16 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 
 			<div class="five columns">
 				<div class=johnson-set-paddings1>
-					<h2 class=blackshadow>Access Mag.</h2>
-					<span class="subtitle white">web design &nbsp;<br/></span>
-						<span class="subtitle uc white">&#9649; <a href="http://aejmcmagazine.arizona.edu/students.html" alt="" class="">AEJMC</a> school mag website award&#9649;</span>
+					<h2 class=blackshadow>Inked Studios</h2>
+					<span class="subtitle white">web &nbsp; / &nbsp; UI &nbsp; / &nbsp; brand identity</span>
+						<span class="subtitle uc white">&#9649; Currently in development &#9649;</span>
 				</div>
 			</div>
 			
 			<div class="seven columns">
 				<div class=johnson-set-paddings2>
 					<p class=white>
-							Website created for Access Magazine, SJSU's bi-annual campus magazine; the Fall 2010 issue. This site is made with xhtml, css, &amp; jquery. Not a dynamic site in terms of back-end web development. Jquery plugins of that time were utilized. Main obstacle of this project was to create the structure without receiving any content or imagery until the end.
+						Inkedstudios.com aims to build an online art community while promoting up-and-coming artists, particularly those of urban &amp; street art. With the ability for artist to create their own galleries and have viewers collect or share them, a easy-to-follow interface that's approachable and flexible is key in the early stages of the site. <span style="color:black;">Currently in development.</span>
 					</p>					
 					<span class=expand><a href="#" class="white">Expand and View More of This Project in Detail</a></span>
 				</div>
@@ -476,15 +400,15 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 		<!-- end description row -->
 	</div>
 
-	<div id="sc2-fifth" class="slide hideble">
+	<div id="fifth" class="slide hideble">
 		<div class="row padding100">
 		<span class=showcase-number>Showcase 5 of 5</span>
 
 		<div class="featured" id=first-slider> 
-			<img src="images/portfolio-images/2-showcase2/slider5/1.jpg" width="100%" />
-			<img src="images/portfolio-images/2-showcase2/slider5/2.jpg" width="100%" />
-			<img src="images/portfolio-images/2-showcase2/slider5/3.jpg" width="100%" />
-			<img src="images/portfolio-images/2-showcase2/slider5/4.jpg" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider5/aslan-1-opt.jpg" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider5/aslan-2.png" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider5/aslan-3.png" width="100%" />
+			<img src="images/portfolio-images/1-showcase1/slider5/aslan-4.png" width="100%" />
 		</div>
 		
 		</div>
@@ -494,17 +418,18 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 
 			<div class="five columns">
 				<div class=johnson-set-paddings1>
-					<h2 class=blackshadow>Various Posters</h2>
-					<span class="subtitle">print design</span><br/>
+					<h2 class=blackshadow>Aslan Bikes</h2>
+					<span class="subtitle white">logotype</span><br/>
+						<span class="subtitle uc white">&#9649; Project Discontinued &#9649;</span>
 				</div>
 			</div>
 			
 			<div class="seven columns">
 				<div class=johnson-set-paddings2>
-					<p>
-						Ink on paper &#61; poster; in my opinion, the most satisfying way to deliver information to the general public, regardless of their associations, beliefs, or ethics. Like its cousins: book covers and beer &amp; wine bottles labels, there are no rules to the canvas, other than to convey the target message. 
+					<p class=white>
+							Logo/headbadge for a couple of entrepreneurs looking to start up a bicycle product line (which ultimately fell out). Logo implementation and mock-ups needed for investor pitches. While jumping on the fad of singlespeed bikes, the goal was to create a symbol of track cycling with that of &#34;heat of a lion.&#34;
 					</p>
-					<span class=expand><a href="#" class="">Expand and View More of This Logo's Process</a></span>
+					<span class=expand white><a href="#" class="white">Expand and View More of This Logo's Process</a></span>
 				</div>
 			</div>
 			
@@ -512,8 +437,7 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 		<!-- end description row -->
 	</div>
 
-	
-		<div id="footer-slide" class="slide hideble">
+	<div id="footer-slide" class="slide hideble">
 		<div class=row>
 		
 			<div class=green-triangle>
@@ -537,7 +461,42 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 	</div>
 	
 	
+	
+	<div id="homepage" class="showable">
+		<div class=row>
+			<h1 class="main-logo johnson-s-logo"></h1>
+			
+			
+			<div class="green-line">
+			</div>
+			
 
+			
+
+			<div class=clear></div>
+			<p class="hello-text">
+				<span class="hello-text-content">
+					Hey there, fellow internet enabler. The name is Johnson, and I'm a graphic/web designer in the San Francisco Bay Area. This is the online showcase of my portfolio. Since you're already here, check it out.
+				</span>
+			</p>
+			
+			<div class="johnson-canvas row show-on-desktops">
+				
+				<div class="six columns ">
+				<div class=cta_box>
+						<div class="cta">Aww crap! I messed up the link. Can you put it back for me? <span>Click &amp; Drag &rarr;</span></div>
+				</div>
+					<img class=p src="images/P.png" />
+				</div>
+				<div class="six columns">
+					<img class="before" src="images/hp-project-before.png" />
+				</div>
+				
+			</div>
+			
+		</div>
+		</div>
+	
 	<!-- container -->
 
 
@@ -573,10 +532,10 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 
 		
 		$('#start').parallax("50%", 0, 0.1, true);
-		$('#sc2-first').parallax("50%", 0, 0.2, true);
-		$('#sc2-second').parallax("50%", 0, 0.1, true);
-		$('#sc2-third').parallax("50%", 0, 0.1, true);
-		$('#sc2-forth').parallax("50%", 0, 0.3, true);
+		$('#first').parallax("50%", 0, 0.2, true);
+		$('#second').parallax("50%", 0, 0.1, true);
+		$('#third').parallax("50%", 0, 0.1, true);
+		$('#forth').parallax("50%", 0, 0.3, true);
 	
 		var deck = new $.scrolldeck({
 		slides: '.slide',
@@ -608,12 +567,28 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 
 	 			$(".black-triangle").click(function(e) {
 				e.preventDefault();
-				var slide = $("#sc2-second");
+				var slide = $("#second");
 				currIndex = slide.index();
 				scrollToSlide(slide);
 				
 			});
 	 
+	 $(".expand").click(function (e) {
+		e.preventDefault();
+		$(".left-slide").animate({"width":"100%"}, 1000);
+		$(".left-slide-content").load("left-slide.html");
+		$("#nav").fadeOut(500);
+		$(".slide").fadeOut(3000,function () {$(".left-slide").css("position","static");});
+		
+	 });
+	 $(".close-left-slide").click(function (e) {
+		e.preventDefault();
+		$("#nav").fadeIn(500);
+		$(".slide").fadeIn(100,function () {$(".left-slide").css("position","fixed");});
+		$(".left-slide").animate({"width":"0"}, 1000);
+		window.location = "#first";
+
+		});
 		
 	  $("#nav li").hover(function () {
 		
@@ -626,6 +601,25 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 		
 		});	  
 	 
+	 $("a[data-link='about']").click(function (e) {
+		e.preventDefault();
+		var w = $(window).width();
+		if (w > 700) { var l = '620px'; }
+		if (w > 1200) { var l = '520px'; }
+		if (w <= 960) { var l = '850px'; }
+		$(".about-content").hide(0);
+		$(".about").stop().animate({'height':l},700);
+		$(".about-content").delay(200).fadeIn(1500);
+		
+	 });
+	 $("a[data-link='close-about']").click(function (e) {
+		e.preventDefault();
+		$(".about").css({'margin-top':'0px'});
+		$(".about").stop().delay(0).animate({'margin-top':'-700px'},1000);
+		$(".about").stop().delay(500).animate({'height':'0px'},0);
+		$(".about").delay(500).animate({'margin-top':'0px'},0);
+
+	 });
 
 	
 	// m-slider init
@@ -687,7 +681,74 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 		}
 			setTimeout(type, 100);
 		
+			$(".arrow-up").click(function () {
+				link = $(".current-nav");				
+				current_link = link.attr("href");
+				before_link = link.parent().prev().find("a").attr("href");
+				$(window).scrollTo(before_link,1000);
+			});
+			$(".arrow-down").click(function () {
+				link = $(".current-nav");				
+				current_link = link.attr("href");
+				next_link = link.parent().next().find("a").attr("href");
+				$(window).scrollTo(next_link, 1000);
+			});
 
+			$(".top-bar").hover(function() {
+				$(".green-bar").stop().animate({top:'0px'});
+			}, function () {
+				//$(".green-bar").stop().animate({top:'-50px'});			
+			});
+			$(".green-bar").hover(function() {},
+			function () {
+				$(".green-bar").animate({top:'-70px'});			
+			});
+		$(".showcase2").click(function () {
+						$(".slide").animate({left:"-2000px"},1000);
+						
+						$(".slide").delay(3100).animate({left:"0px"},3000);
+						var a = settimeout(function () {"$('.slide').css('left','2000px');"},3000);
+		});
+
+		$(".hideble").hide();
+		$(".p").draggable();
+		
+		$(".before").droppable({
+			 drop: handleDropEvent
+		});
+		
+		function handleDropEvent( event, ui ) {
+		  var draggable = ui.draggable;
+		  $(".p").hide();
+		  $(".before").attr("src", "images/hp-project-after.png")
+		  $(".johnson-canvas").fadeOut(500);
+		  $(".hideble").fadeIn(10);
+		  setTimeout("$('.johnson-canvas').remove();",1000);
+		  $(".showable").animate({"margin-left": "-3000px"},2000);
+		  $(".showable").fadeOut(1500);
+		  $(".slide").animate({"left": "0px"},2000);
+
+		  //alert( 'The square with ID "' + draggable.attr('id') + '" was dropped onto me!' );
+		}
+
+	var x=0;
+	var y=0;
+	var z=70;
+	var n=20;
+	
+	$(".cta_box").hide();
+	$(".cta_box").fadeIn(2000);
+	function vibrate() {
+		z=z+2;
+		n=n-0.3;
+		if (x==0) {y=n;x=1;}
+		if (y>0) {y=-n;} else {y=n;}
+		$(".cta").animate({"margin-left": y + "px"},z,function () {vibrate();});
+		
+	}
+	
+	vibrate();
+	
 	
 	});
 

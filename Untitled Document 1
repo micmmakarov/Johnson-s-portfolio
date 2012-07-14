@@ -1,0 +1,200 @@
+	<div id="sc2-first" class="slide hideble">
+	<!--	<a class="nav top-bar-clone" href="#start">
+			<div class=triangle-up></div>
+		</a> -->
+
+	
+		<div class="row padding100">
+		<span class=showcase-number>Showcase 1 of 5</span>
+
+		<div class="featured" id=first-slider> 
+			<img src="images/portfolio-images/2-showcase2/slider1/sp-1.jpg" width="100%" />
+			<img src="images/portfolio-images/2-showcase2/slider1/sp-2.jpg" width="100%" />
+			<img src="images/portfolio-images/2-showcase2/slider1/sp-3.jpg" width="100%" />
+			<img src="images/portfolio-images/2-showcase2/slider1/sp-4.jpg" width="100%" />
+
+		</div>
+		
+		</div>
+		
+		<!-- description row -->
+		<div class=row>
+
+			<div class="five columns">
+				<div class=johnson-set-paddings1>
+					<h2>Sustainability</h2>
+					<span class=subtitle>concept map &nbsp; / &nbsp; print design</span>
+				</div>
+			</div>
+			
+			<div class="seven columns">
+				<div class=johnson-set-paddings2>
+					<p>
+						In this assignment, a infographic was created to give the uninformed a brief and general overview in regards to sustainability in homes/architecture. Information hierarchy is differenced with font sizes, font weights, colors, and straight &amp; dotted lines. 11 x 17 inches.
+   					</p>
+					<span class=expand><a href="#" class="">Expand and View More of This Project in Detail</a></span>
+				</div>
+			</div>
+			
+			
+		</div>
+		<!-- end description row -->
+		
+	</div>
+	
+	<div id="sc2-second" class="slide hideble">
+	
+		<div class="row padding100">
+		<span class="showcase-number white">Showcase 2 of 5</span>
+
+		<div class="featured" id=first-slider> 
+			<img src="images/portfolio-images/2-showcase2/slider2/abe-1.jpg" width="100%" />
+			<img src="images/portfolio-images/2-showcase2/slider2/abe-2.jpg" width="100%" />
+			<img src="images/portfolio-images/2-showcase2/slider2/abe-3.jpg" width="100%" />
+			<img src="images/portfolio-images/2-showcase2/slider2/abe-4.png" width="100%" />
+		</div>
+		
+		</div>
+		
+		<!-- description row -->
+		<div class=row>
+
+			<div class="five columns">
+				<div class=johnson-set-paddings1>
+					<h2 class=blackshadow>Who Dat Abe?</h2>
+					<span class="subtitle white">print</span>
+				</div>
+			</div>
+			
+			<div class="seven columns">
+				<div class=johnson-set-paddings2>
+					<p class=white>
+						Abraham Lincoln: the sixteenth president of the United States of America. Not only is he one of the most important presidents, but is also one of the most popular presidents of all time. Being such a recognizable person with his signature top hat and beard, what would Abe look like if today's popular culture paid homage to him? A2 size.
+						</p>
+					<span class=expand><a href="#" class="white">Expand and View More of This Project in Detail</a></span>
+				</div>
+			</div>
+			
+		</div>
+		<!-- end description row -->
+		
+	</div>
+	
+	<div id="sc2-third" class="slide hideble">
+		<div class="row padding100">
+		<span class=showcase-number>Showcase 3 of 5</span>
+
+		<div class="featured" id=first-slider> 
+			<img src="images/portfolio-images/2-showcase2/slider3/tag-1.jpg" width="100%" />
+			<img src="images/portfolio-images/2-showcase2/slider3/tag-2.jpg" width="100%" />
+			<img src="images/portfolio-images/2-showcase2/slider3/tag-3.jpg" width="100%" />
+			<img src="images/portfolio-images/2-showcase2/slider3/tag-4.jpg" width="100%" />
+			<img src="images/portfolio-images/2-showcase2/slider3/tag-5.jpg" width="100%" />
+			<img src="images/portfolio-images/2-showcase2/slider3/tag-6.jpg" width="100%" />
+		</div>
+		
+		</div>
+		
+		<!-- description row -->
+		<div class=row>
+
+			<div class="five columns">
+				<div class=johnson-set-paddings1>
+					<h2>Tagline</h2>
+					<span class=subtitle>print &nbsp; / &nbsp; layout</span>
+				</div>
+			</div>
+			
+			<div class="seven columns">
+				<div class=johnson-set-paddings2>
+					<p>
+						Annual letter-sized publication for the campus's advertising club. Black and white on the inside pages, color on the cover. 20 total pages from cover to cover. Subject of this issue was about branding in the new century. Besides the imagery on the cover, the other challenge was to make the text visually dynamic with the limited images and images of quality. 8&frac12; x 11 inches.
+					</p>
+					<span class=expand><a href="#" class="">Expand and View More of This Project in Detail</a></span>
+				</div>
+			</div>
+			
+		</div>
+		<!-- end description row -->
+		
+	</div>
+	
+	<div id="sc2-fourth" class="slide hideble">
+		<div class="row padding100">
+		<span class="showcase-number white">Showcase 4 of 5</span>
+
+		<div class="featured" id=first-slider> 
+			<img src="images/portfolio-images/2-showcase2/slider4/ax-1.jpg" width="100%" />
+			<img src="images/portfolio-images/2-showcase2/slider4/ax-2.jpg" width="100%" />
+			<img src="images/portfolio-images/2-showcase2/slider4/ax-3.jpg" width="100%" />
+			<img src="images/portfolio-images/2-showcase2/slider4/ax-4.jpg" width="100%" />
+		</div>
+		
+		</div>
+		
+		<!-- description row -->
+		<div class=row>
+
+			<div class="five columns">
+				<div class=johnson-set-paddings1>
+					<h2 class=blackshadow>Access Mag.</h2>
+					<span class="subtitle white">web design &nbsp;<br/></span>
+						<span class="subtitle uc white">&#9649; <a href="http://aejmcmagazine.arizona.edu/students.html" alt="" class="">AEJMC</a> school mag website award&#9649;</span>
+				</div>
+			</div>
+			
+			<div class="seven columns">
+				<div class=johnson-set-paddings2>
+					<p class=white>
+							Website created for Access Magazine, SJSU's bi-annual campus magazine; the Fall 2010 issue. This site is made with xhtml, css, &amp; jquery. Not a dynamic site in terms of back-end web development. Jquery plugins of that time were utilized. Main obstacle of this project was to create the structure without receiving any content or imagery until the end.
+					</p>					
+					<span class=expand><a href="#" class="white">Expand and View More of This Project in Detail</a></span>
+				</div>
+			</div>
+			
+		</div>
+		<!-- end description row -->
+	</div>
+
+	<div id="sc2-fifth" class="slide hideble">
+		<div class="row padding100">
+		<span class=showcase-number>Showcase 5 of 5</span>
+
+		<div class="featured" id=first-slider> 
+			<img src="images/portfolio-images/2-showcase2/slider5/1.jpg" width="100%" />
+			<img src="images/portfolio-images/2-showcase2/slider5/2.jpg" width="100%" />
+			<img src="images/portfolio-images/2-showcase2/slider5/3.jpg" width="100%" />
+			<img src="images/portfolio-images/2-showcase2/slider5/4.jpg" width="100%" />
+		</div>
+		
+		</div>
+		
+		<!-- description row -->
+		<div class=row>
+
+			<div class="five columns">
+				<div class=johnson-set-paddings1>
+					<h2 class=blackshadow>Various Posters</h2>
+					<span class="subtitle">print design</span><br/>
+				</div>
+			</div>
+			
+			<div class="seven columns">
+				<div class=johnson-set-paddings2>
+					<p>
+						Ink on paper &#61; poster; in my opinion, the most satisfying way to deliver information to the general public, regardless of their associations, beliefs, or ethics. Like its cousins: book covers and beer &amp; wine bottles labels, there are no rules to the canvas, other than to convey the target message. 
+					</p>
+					<span class=expand><a href="#" class="">Expand and View More of This Logo's Process</a></span>
+				</div>
+			</div>
+			
+		</div>
+		<!-- end description row -->
+	</div>
+
+	
+	
+	
+	
+
+
