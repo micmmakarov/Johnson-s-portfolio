@@ -42,17 +42,6 @@ background-attachment:fixed;
 	text-align:center;
 	position:relative;
 }
-#cs2-start {
-	/* background:url(../images/bg/homepage-bg-opt.jpg) -75px no-repeat fixed; */
-	background:white;
-	color: black;
-	height: 700px;
-	margin: 0 auto;
-	padding: 30px 0 0 0;
-	width:100%;
-	text-align:center;
-	position:relative;
-}
 
 #first { 
 	background:url(../images/portfolio-images/1-showcase1/backgrounds/backgrounds-1-opt.jpg) 50% 0 no-repeat fixed;

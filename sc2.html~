@@ -71,8 +71,8 @@ left:0px;
 	<div class=white-johnson></div>
 	<a href="#start" class="nav back-to-the-top right"></a>
 	<ul class="row" style="max-width:800px;">
-		<li><a class=active>Showcase</a></li>
-		<li><a class="showcase2">Showcase2</a></li>
+		<li><a href="index.html?skip_intro=yes!">Showcase</a></li>
+		<li><a class="showcase2 active">Showcase2</a></li>
 		<li><a>Photography</a></li>
 		<li><a>Everything Else</a></li>
 	</ul>
@@ -157,17 +157,17 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 </div>
 
 <ul id="nav" class=hideble>
-		<li style="display:none;"><a class="nav nav-point" href="#start" title="Next Section"><p>0</p></a><div class=clear></div><a href="#start" class="nav project-name"><p>Start page</p></a></li>
+		<li style="display:none;"><a class="nav nav-point" href="#cs2-start" title="Next Section"><p>0</p></a><div class=clear></div><a href="#cs2-start" class="nav project-name"><p>Start page</p></a></li>
 
-	    <li><a class="nav nav-point" href="#first" title="Next Section"><p>1</p></a><div class=clear></div><a href="#first" class="nav project-name"><p>o3 Bistro</p></a>
+	    <li><a class="nav nav-point" href="#cs21" title="Next Section"><p>1</p></a><div class=clear></div><a href="#cs21" class="nav project-name"><p>o3 Bistro</p></a>
 
-	    <li><a class="nav nav-point" href="#second" title="Next Section"><p>2</p></a><div class=clear></div><a href="#second" class="nav project-name"><p>Blissmo</p></a></li>
+	    <li><a class="nav nav-point" href="#cs2-second" title="Next Section"><p>2</p></a><div class=clear></div><a href="#cs2-second" class="nav project-name"><p>Blissmo</p></a></li>
 
-	    <li><a class="nav nav-point" href="#third" title="Next Section"><p>3</p></a><div class=clear></div><a href="#third" class="nav project-name"><p>Fitsoft</p></a></li>
+	    <li><a class="nav nav-point" href="#cs2-third" title="Next Section"><p>3</p></a><div class=clear></div><a href="#cs2-third" class="nav project-name"><p>Fitsoft</p></a></li>
 
 	    <li><a class="nav nav-point" href="#fourth" title="Next Section"><p>4</p></a><div class=clear></div><a href="#fourth" class="nav project-name"><p>InkedStudios</p></a></li>
 
-	    <li><a class="nav nav-point" href="#fifth" title="Next Section"><p>5</p></a><div class=clear></div><a href="#fifth" class="nav project-name"><p>Aslan Bikes</p></a></li>
+	    <li><a class="nav nav-point" href="#cs2-fifth" title="Next Section"><p>5</p></a><div class=clear></div><a href="#cs2-fifth" class="nav project-name"><p>Aslan Bikes</p></a></li>
 
 	    <li style="display:none;"><a class="nav nav-point" href="#footer-slide" title="Next Section"><p>6</p></a><div class=clear></div><a href="#footer-slide" class="nav project-name"><p>Footer</p></a></li>
 		<div class="arrow-up"></div>
@@ -221,7 +221,7 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 
 
 
-<div id="start" class="slide hideble">
+<div id="cs2-start" class="slide hideble">
 		<div class=row>
 			<h1 class="main-logo johnson-s-logo"></h1>
 			<ul class="main-menu hideble">
@@ -235,7 +235,7 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 			</div>
 			
 			<ul class="sub-menu hideble">
-				<li><a href="index.html">Showcase</a></li>
+				<li><a href="index.html?skip_intro=yes!">Showcase</a></li>
 				<li><a href="sc2.html" class=active>Showcase2</a><div class="small-triangle"></div></li>
 				<li><a href="#">Photography</a></li>
 				<li><a href="#">Everything Else</a></li>
@@ -252,7 +252,7 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 			
 			
 		</div>
-		<a class="nav black-triangle hideble" href="#first .featured">&nbsp;
+		<a class="nav black-triangle hideble" href="#cs21 .featured">&nbsp;
 		</a>
 		</div>
 
@@ -271,7 +271,7 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 
 
 				
-	<div id="sc2-first" class="slide hideble">
+	<div id="cs21" class="slide hideble">
 	<!--	<a class="nav top-bar-clone" href="#start">
 			<div class=triangle-up></div>
 		</a> -->
@@ -477,7 +477,7 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 				<p>Be sure check out the rest of my stuff in <span class=one>Showcase2</span>, <span class=two>Photography</span>, &amp; <span class=two>Everything Else</span> as those pages shows projects that I consider of a more independent nature.</p>
 			</div>
 		
-			<a class="back-to-the-top-of-the-page" href="#start">
+			<a class="nav back-to-the-top-of-the-page" href="#cs2-start">
 			
 				<div>
 					Back to the Top<br />
@@ -525,8 +525,8 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 	});	
 
 		
-		$('#start').parallax("50%", 0, 0.1, true);
-		$('#sc2-first').parallax("50%", 0, 0.2, true);
+		$('#cs2-start').parallax("50%", 0, 0.1, true);
+		$('#cs21').parallax("50%", 0, 0.2, true);
 		$('#sc2-second').parallax("50%", 0, 0.1, true);
 		$('#sc2-third').parallax("50%", 0, 0.1, true);
 		$('#sc2-forth').parallax("50%", 0, 0.3, true);
@@ -581,21 +581,6 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 	 
 
 	
-	// m-slider init
-	pictures = $(".m-slider div");
-	pics = $(".m-slider div img");
-	pictures.hide();
-	info = $(".m-slider-info");
-	info.text("1 of "+pictures.length);
-	$(".m-slider div:first-child").show();
-	// generate thumbnails and links
-	thumb_box = $(".m-slider-thumbs");
-	for (i=1; i <= pictures.length; i++) {
-	
-		thumb_box.append("<a data-image=" + i + " class='m-img image-link'><img src="+$(".m-slider div:nth-child(" + i + ") img").attr("src")+" /></a>");
-		
-	}
-	
 	
 	 $(".image-link").live("click", function (e) {
 		e.preventDefault();
@@ -631,15 +616,16 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 		var exit = text.length;
 		l=20;
 		
-		function type() {
-			text_box.append(text.substr(counter,1));
-			if (text.substr(counter,1)==' ') {l=30;} else {l=20;} // If space then wait longer
-			if (text.substr(counter,1)=='.') {l=100;}
-			counter ++;
-			if (counter < exit) setTimeout(type, l);
-		}
-			setTimeout(type, 100);
 		
+$(".top-bar").hover(function() {
+				$(".green-bar").stop().animate({top:'0px'});
+			}, function () {
+				//$(".green-bar").stop().animate({top:'-50px'});			
+			});
+			$(".green-bar").hover(function() {},
+			function () {
+				$(".green-bar").animate({top:'-70px'});			
+			});
 
 	
 	});
