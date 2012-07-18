@@ -140,54 +140,7 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 
 
 
-	<div id="start" class="slide hideble">
-		<div class=row>
-			<h1 class="main-logo johnson-s-logo"></h1>
-			<ul class="main-menu hideble">
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Freebies</a></li>
-				<li><a href="#" data-link="about">About/contact</a></li>
-			</ul>
-			
-			<div class="green-line">
-			</div>
-			
-			<ul class="sub-menu hideble">
-				<li><a href="index.html">Showcase</a></li>
-				<li><a href="sc2.html" class=active>Showcase2</a><div class="small-triangle"></div></li>
-				<li><a href="#">Photography</a></li>
-				<li><a href="#">Everything Else</a></li>
-			</ul>
-			
-
-			<div class=clear></div>
-			<p class="hello-text">
-				<span class="hello-text-content">
-					Real world projects, client work&mdash; as Will Ferrell might say &ldquo;Gets the people going!&rdquo; Below are a few selected client projects, ranging from print to web to things that fall in between the proverbial creative seat cushions.
-				</span>
-			</p>
-			
-			<div class="johnson-canvas showable row show-on-desktops">
-				
-				<div class="six columns showable ">
-				<div class=cta_box>
-						<div class="cta">Aww crap! I messed up the link. Can you put it back for me? <span>Click &amp; Drag &rarr;</span></div>
-				</div>
-					<img class=p src="images/P.png" />
-				</div>
-				<div class="six columns">
-					<img class="before showable" src="images/hp-project-before.png" />
-				</div>
-				
-			</div>
-			
-		</div>
-		<a class="nav black-triangle hideble" href="#first .featured">&nbsp;
-		</a>
-		</div>
-
-
+	
 
 
 

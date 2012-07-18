@@ -200,8 +200,8 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 			</div>
 			
 			<ul class="sub-menu hideble">
-				<li><a href="#" class=active>Showcase</a><div class="small-triangle"></div></li>
-				<li><a href="#">Showcase2</a></li>
+				<li><a href="index.html" class=active>Showcase</a><div class="small-triangle"></div></li>
+				<li><a href="sc2.html">Showcase2</a></li>
 				<li><a href="#">Photography</a></li>
 				<li><a href="#">Everything Else</a></li>
 			</ul>
@@ -518,6 +518,16 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 	<script src="javascripts/app.js"></script>
 	
 	<script>
+
+function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+
+
 	$(document).ready(function () {
 		
 			RepositionNav();
@@ -565,14 +575,9 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 			 fluid: true                         // or set a aspect ratio for content slides (ex: '4x3') );
      });
 
-	 			$(".black-triangle").click(function(e) {
-				e.preventDefault();
-				var slide = $("#second");
-				currIndex = slide.index();
-				scrollToSlide(slide);
-				
-			});
-	 
+	 	
+
+
 	 $(".expand").click(function (e) {
 		e.preventDefault();
 		$(".left-slide").animate({"width":"100%"}, 1000);
@@ -710,6 +715,7 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 						var a = settimeout(function () {"$('.slide').css('left','2000px');"},3000);
 		});
 
+		
 		$(".hideble").hide();
 		$(".p").draggable();
 		
@@ -721,11 +727,11 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 		  var draggable = ui.draggable;
 		  $(".p").hide();
 		  $(".before").attr("src", "images/hp-project-after.png")
-		  $(".johnson-canvas").fadeOut(500);
+		  //$(".johnson-canvas").fadeOut(500);
 		  $(".hideble").fadeIn(10);
 		  setTimeout("$('.johnson-canvas').remove();",1000);
 		  $(".showable").animate({"margin-left": "-3000px"},2000);
-		  $(".showable").fadeOut(1500);
+		  //$(".showable").fadeOut(1500);
 		  $(".slide").animate({"left": "0px"},2000);
 
 		  //alert( 'The square with ID "' + draggable.attr('id') + '" was dropped onto me!' );
@@ -733,8 +739,8 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 
 	var x=0;
 	var y=0;
-	var z=70;
-	var n=20;
+	var z=1170;
+	var n=10;
 	
 	$(".cta_box").hide();
 	$(".cta_box").fadeIn(2000);
@@ -743,11 +749,34 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 		n=n-0.3;
 		if (x==0) {y=n;x=1;}
 		if (y>0) {y=-n;} else {y=n;}
-		$(".cta").animate({"margin-left": y + "px"},z,function () {vibrate();});
+		$(".cta").animate({"margin-top": y + "px"},z,function () {vibrate();});
 		
 	}
 	
-	vibrate();
+	
+
+
+
+
+
+var skip_intro = getUrlVars()["skip_intro"];
+if (skip_intro == 'yes!') {
+		  $(".hideble").show();
+		  $('.johnson-canvas').remove();
+		  $(".showable").hide();
+		  //$(".slide").css("left", "0px");
+		  $(".slide").animate({"left": "0px"},2000);
+}
+
+
+
+
+
+
+
+
+
+vibrate();
 	
 	
 	});
