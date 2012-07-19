@@ -47,7 +47,7 @@
 	<a href="#start" class="nav back-to-the-top right"></a>
 	<ul class="row" style="max-width:800px;">
 		<li><a class=active>Showcase</a></li>
-		<li><a class="showcase2">Showcase2</a></li>
+		<li><a class="showcase2" href="sc2.html">Showcase2</a></li>
 		<li><a>Photography</a></li>
 		<li><a>Everything Else</a></li>
 	</ul>
@@ -448,7 +448,7 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 				<p>Be sure check out the rest of my stuff in <span class=one>Showcase2</span>, <span class=two>Photography</span>, &amp; <span class=two>Everything Else</span> as those pages shows projects that I consider of a more independent nature.</p>
 			</div>
 		
-			<a class="back-to-the-top-of-the-page" href="#start">
+			<a class="nav back-to-the-top-of-the-page" href="#start">
 			
 				<div>
 					Back to the Top<br />
@@ -708,7 +708,7 @@ function getUrlVars() {
 			function () {
 				$(".green-bar").animate({top:'-70px'});			
 			});
-		$(".showcase2").click(function () {
+		$(".showcase23").click(function () {
 						$(".slide").animate({left:"-2000px"},1000);
 						
 						$(".slide").delay(3100).animate({left:"0px"},3000);

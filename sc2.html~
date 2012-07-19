@@ -157,17 +157,17 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 </div>
 
 <ul id="nav" class=hideble>
-		<li style="display:none;"><a class="nav nav-point" href="#cs2-start" title="Next Section"><p>0</p></a><div class=clear></div><a href="#cs2-start" class="nav project-name"><p>Start page</p></a></li>
+		<li style="display:none;"><a class="nav nav-point" href="#sc2start" title="Next Section"><p>0</p></a><div class=clear></div><a href="#sc2start" class="nav project-name"><p>Start page</p></a></li>
 
-	    <li><a class="nav nav-point" href="#cs21" title="Next Section"><p>1</p></a><div class=clear></div><a href="#cs21" class="nav project-name"><p>o3 Bistro</p></a>
+	    <li><a class="nav nav-point" href="#sc21" title="Next Section"><p>1</p></a><div class=clear></div><a href="#sc21" class="nav project-name"><p>o3 Bistro</p></a>
 
-	    <li><a class="nav nav-point" href="#cs2-second" title="Next Section"><p>2</p></a><div class=clear></div><a href="#cs2-second" class="nav project-name"><p>Blissmo</p></a></li>
+	    <li><a class="nav nav-point" href="#sc22" title="Next Section"><p>2</p></a><div class=clear></div><a href="#sc22" class="nav project-name"><p>Blissmo</p></a></li>
 
-	    <li><a class="nav nav-point" href="#cs2-third" title="Next Section"><p>3</p></a><div class=clear></div><a href="#cs2-third" class="nav project-name"><p>Fitsoft</p></a></li>
+	    <li><a class="nav nav-point" href="#sc23" title="Next Section"><p>3</p></a><div class=clear></div><a href="#sc23" class="nav project-name"><p>Fitsoft</p></a></li>
 
-	    <li><a class="nav nav-point" href="#fourth" title="Next Section"><p>4</p></a><div class=clear></div><a href="#fourth" class="nav project-name"><p>InkedStudios</p></a></li>
+	    <li><a class="nav nav-point" href="#sc24" title="Next Section"><p>4</p></a><div class=clear></div><a href="#sc24" class="nav project-name"><p>InkedStudios</p></a></li>
 
-	    <li><a class="nav nav-point" href="#cs2-fifth" title="Next Section"><p>5</p></a><div class=clear></div><a href="#cs2-fifth" class="nav project-name"><p>Aslan Bikes</p></a></li>
+	    <li><a class="nav nav-point" href="#sc25" title="Next Section"><p>5</p></a><div class=clear></div><a href="#sc25" class="nav project-name"><p>Aslan Bikes</p></a></li>
 
 	    <li style="display:none;"><a class="nav nav-point" href="#footer-slide" title="Next Section"><p>6</p></a><div class=clear></div><a href="#footer-slide" class="nav project-name"><p>Footer</p></a></li>
 		<div class="arrow-up"></div>
@@ -221,7 +221,7 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 
 
 
-<div id="cs2-start" class="slide hideble">
+<div id="sc2start" class="slide hideble">
 		<div class=row>
 			<h1 class="main-logo johnson-s-logo"></h1>
 			<ul class="main-menu hideble">
@@ -252,7 +252,7 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 			
 			
 		</div>
-		<a class="nav black-triangle hideble" href="#cs21 .featured">&nbsp;
+		<a class="nav black-triangle hideble" href="#sc21 .featured">&nbsp;
 		</a>
 		</div>
 
@@ -271,7 +271,7 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 
 
 				
-	<div id="cs21" class="slide hideble">
+	<div id="sc21" class="slide hideble">
 	<!--	<a class="nav top-bar-clone" href="#start">
 			<div class=triangle-up></div>
 		</a> -->
@@ -315,7 +315,7 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 		
 	</div>
 	
-	<div id="sc2-second" class="slide hideble">
+	<div id="sc22" class="slide hideble">
 	
 		<div class="row padding100">
 		<span class="showcase-number white">Showcase 2 of 5</span>
@@ -353,7 +353,7 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 		
 	</div>
 	
-	<div id="sc2-third" class="slide hideble">
+	<div id="sc23" class="slide hideble">
 		<div class="row padding100">
 		<span class=showcase-number>Showcase 3 of 5</span>
 
@@ -392,7 +392,7 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 		
 	</div>
 	
-	<div id="sc2-fourth" class="slide hideble">
+	<div id="sc24" class="slide hideble">
 		<div class="row padding100">
 		<span class="showcase-number white">Showcase 4 of 5</span>
 
@@ -429,7 +429,7 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 		<!-- end description row -->
 	</div>
 
-	<div id="sc2-fifth" class="slide hideble">
+	<div id="sc25" class="slide hideble">
 		<div class="row padding100">
 		<span class=showcase-number>Showcase 5 of 5</span>
 
@@ -477,7 +477,7 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 				<p>Be sure check out the rest of my stuff in <span class=one>Showcase2</span>, <span class=two>Photography</span>, &amp; <span class=two>Everything Else</span> as those pages shows projects that I consider of a more independent nature.</p>
 			</div>
 		
-			<a class="nav back-to-the-top-of-the-page" href="#cs2-start">
+			<a class="nav back-to-the-top-of-the-page" href="#sc2start">
 			
 				<div>
 					Back to the Top<br />
@@ -525,11 +525,12 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 	});	
 
 		
-		$('#cs2-start').parallax("50%", 0, 0.1, true);
-		$('#cs21').parallax("50%", 0, 0.2, true);
-		$('#sc2-second').parallax("50%", 0, 0.1, true);
-		$('#sc2-third').parallax("50%", 0, 0.1, true);
-		$('#sc2-forth').parallax("50%", 0, 0.3, true);
+		$('#sc2start').parallax("50%", 0, 0.1, true);
+		$('#sc21').parallax("50%", 0, 0.2, true);
+		$('#sc22').parallax("50%", 0, 0.1, true);
+		$('#sc23').parallax("50%", 0, 0.1, true);
+		$('#sc24').parallax("50%", 0, 0.3, true);
+		$('#sc25').parallax("50%", 0, 0.3, true);
 	
 		var deck = new $.scrolldeck({
 		slides: '.slide',
@@ -561,7 +562,7 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 
 	 			$(".black-triangle").click(function(e) {
 				e.preventDefault();
-				var slide = $("#sc2-second");
+				var slide = $("#sc22");
 				currIndex = slide.index();
 				scrollToSlide(slide);
 				
@@ -627,7 +628,21 @@ $(".top-bar").hover(function() {
 				$(".green-bar").animate({top:'-70px'});			
 			});
 
+			$(".arrow-up").click(function () {
+				link = $(".current-nav");				
+				current_link = link.attr("href");
+				before_link = link.parent().prev().find("a").attr("href");
+				$(window).scrollTo(before_link,1000);
+			});
+			$(".arrow-down").click(function () {
+				link = $(".current-nav");				
+				current_link = link.attr("href");
+				next_link = link.parent().next().find("a").attr("href");
+				$(window).scrollTo(next_link, 1000);
+			});
 	
+
+
 	});
 
 
