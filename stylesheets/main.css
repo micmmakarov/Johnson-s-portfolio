@@ -406,6 +406,9 @@ float:none;
 }
 
 @media only screen and (max-width: 980px) {
+.green-bar .white-johnson {
+display:none;
+}
 .slide .row {
 overflow:hidden;
 }
@@ -1002,9 +1005,12 @@ overflow-x:hidden;
 	box-shadow: inset 0px -5px 15px rgba(0,0,0,0.1);
 	content:' ';
 	}
+.green-bar ul li:first-child {
+margin-left:50px;
+}
 .green-bar .row li {
 float:left;
-width:25%;
+width:20%;
 }
 .green-bar .row li a {
 width:125px;
@@ -1065,7 +1071,7 @@ display: block;
 text-align: left; 
 width:207px; 
 line-height: 15px;
-margin-left:11%;
+margin-left:17px;
 }
 
 div.cta span{

@@ -740,16 +740,16 @@ function getUrlVars() {
 	var x=0;
 	var y=0;
 	var z=1170;
-	var n=10;
+	var n=10.1;
 	
 	$(".cta_box").hide();
 	$(".cta_box").fadeIn(2000);
 	function vibrate() {
 		z=z+2;
-		n=n-0.3;
+		n=n-0.1;
 		if (x==0) {y=n;x=1;}
 		if (y>0) {y=-n;} else {y=n;}
-		$(".cta").animate({"margin-top": y + "px"},z,function () {vibrate();});
+		$(".cta").animate({"margin-top": y -10 + "px"},z,function () {vibrate();});
 		
 	}
 	
