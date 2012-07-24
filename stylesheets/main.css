@@ -37,8 +37,7 @@ background-attachment:fixed;
 
 
 #start {
-	/* background:url(../images/bg/homepage-bg-opt.jpg) -75px no-repeat fixed; */
-	background:white;
+	background:url(../images/portfolio-images/1-showcase1/backgrounds/backgrounds-0.jpg) -75px no-repeat fixed;
 	color: black;
 	height: 700px;
 	margin: 0 auto;
@@ -48,8 +47,7 @@ background-attachment:fixed;
 	position:relative;
 }
 #sc2start {
-	/* background:url(../images/bg/homepage-bg-opt.jpg) -75px no-repeat fixed; */
-	background:white;
+	background:url(../images/portfolio-images/2-showcase2/backgrounds/0-cubes.png) -75px fixed;
 	color: black;
 	height: 700px;
 	margin: 0 auto;
@@ -780,7 +778,7 @@ display:block;
 float:right;
 content:' ';
 }
-span.expand {display:block; margin-top:10px;}
+span.expand {display:none; /* display:block */ margin-top:10px;}
 
 .expand:before {
 background: url(../images/image.png) no-repeat -258px -147px;
@@ -843,9 +841,11 @@ div.row {margin-top:-10px;}
 }
 
 #footer-slide p:last-child {margin-top:50px; margin-bottom:0px; width:640px;}
-	span.one {color:white; text-shadow:0px -1px 0px #072624;}
-		span.two {color:#114844; text-shadow: 0px 1px 0px #9ddadf;}
-
+	a.one {color:white; text-shadow:0px -1px 0px #072624;}
+		a.one:hover{
+				  opacity: 0.6;
+				  filter: alpha(opacity=60);
+				} 
 
 .about-email h2 {margin-left:37px; padding-bottom:25px; margin-top:20px;}	
 
@@ -1106,5 +1106,8 @@ display:block;
 margin-top:20px;
 margin-left:auto;
 margin-right:auto;
+color:#073030;
+text-shadow:0px 1px 0px #54b7b7;
+font-size:17px;
 }
 
