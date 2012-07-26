@@ -1,5 +1,10 @@
 /* second css file because main too big and this is johnson starting this one */
 
-.ee {padding-top:30px; max-width:90% !important;}
+.ee {padding-top:50px; max-width:90% !important;}
+.ee img {background:#ccc; width:100%;}
 
-.ee img {height:200px; width:100%; background:#ccc;}
+.row div {float:left; }
+
+.j-five { width:40%;}
+.j-three { width:30%;}
+.j-two { width:15%;}

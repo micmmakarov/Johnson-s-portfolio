@@ -46,8 +46,20 @@ background-attachment:fixed;
 	text-align:center;
 	position:relative;
 }
+
 #sc2start {
 	background:url(../images/portfolio-images/2-showcase2/backgrounds/0-cubes.png) -75px fixed;
+	color: black;
+	height: 700px;
+	margin: 0 auto;
+	padding: 30px 0 0 0;
+	width:100%;
+	text-align:center;
+	position:relative;
+}
+
+#photostart {
+	background:url(../images/portfolio-images/3-photo/backgrounds/0.jpg) -75px fixed;
 	color: black;
 	height: 700px;
 	margin: 0 auto;
@@ -173,6 +185,61 @@ background-attachment:fixed;
 	width:100%;
 
 	}
+
+
+/* showcase2 page */
+
+#photo1 { 
+	background:url(../images/portfolio-images/3-photo/backgrounds/1.jpg) 50% 0 fixed;
+	color: white;
+	height: 1000px;
+	margin: 0 auto;
+
+	width:100%;
+
+}
+
+#photo2 {
+	background:url(../images/portfolio-images/3-photo/backgrounds/2.jpg) 50% 0 fixed;
+	color: white;
+	height: 1000px;
+	margin: 0 auto;
+
+	width:100%;
+
+
+}
+
+#photo3 {
+	background:url(../images/portfolio-images/3-photo/backgrounds/3.jpg) 50% 0 fixed;
+	color: white;
+	height: 1000px;
+	margin: 0 auto;
+
+	width:100%;
+
+}
+
+#photo4 {
+	background:url(../images/portfolio-images/3-photo/backgrounds/4.jpg) 50% 0 fixed;
+	color: white;
+	height: 1000px;
+	margin: 0 auto;
+
+	width:100%;
+
+	}
+
+#photo5 {
+	background:url(../images/portfolio-images/3-photo/backgrounds/5.jpg) 50% 0 fixed;
+	color: white;
+	height: 1000px;
+	margin: 0 auto;
+
+	width:100%;
+
+	}
+
 
 
 	
