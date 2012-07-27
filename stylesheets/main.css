@@ -1185,3 +1185,10 @@ font-size:17px;
 
 /* strike-out because not complete */
 .strike {text-decoration: line-through;}
+
+.transparent1 {
+background: rgba(0,0,0,0.7);
+}
+.johnson-box {
+margin-top:350px !important;
+}
