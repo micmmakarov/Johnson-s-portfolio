@@ -37,7 +37,7 @@ background-attachment:fixed;
 
 
 #start {
-	background:url(../images/portfolio-images/1-showcase1/backgrounds/backgrounds-0.jpg) -75px no-repeat fixed;
+	background:url(../images/portfolio-images/1-showcase1/backgrounds/backgrounds-0.jpg) 50% -73px no-repeat fixed;
 	color: black;
 	height: 700px;
 	margin: 0 auto;
@@ -48,7 +48,7 @@ background-attachment:fixed;
 }
 
 #sc2start {
-	background:url(../images/portfolio-images/2-showcase2/backgrounds/0-cubes.png) -75px fixed;
+	background:url(../images/portfolio-images/2-showcase2/backgrounds/0-cubes.png) 50% 0;
 	color: black;
 	height: 700px;
 	margin: 0 auto;
@@ -59,14 +59,14 @@ background-attachment:fixed;
 }
 
 #photostart {
-	background:url(../images/portfolio-images/3-photo/backgrounds/0.jpg) -75px fixed;
+	background:url(../images/portfolio-images/3-photo/backgrounds/0.jpg)  50% -140px no-repeat fixed;
 	color: black;
+	padding: 30px 0 0 0;
 	height: 700px;
 	margin: 0 auto;
-	padding: 30px 0 0 0;
 	width:100%;
 	text-align:center;
-	position:relative;
+
 }
 
 #first { 
