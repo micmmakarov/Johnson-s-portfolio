@@ -845,7 +845,7 @@ display:block;
 float:right;
 content:' ';
 }
-span.expand {display:none; /* display:block */ margin-top:10px;}
+span.expand {display:block; margin-top:10px;}
 
 .expand:before {
 background: url(../images/image.png) no-repeat -258px -147px;
