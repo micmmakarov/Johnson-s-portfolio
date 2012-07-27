@@ -1,10 +1,18 @@
 /* second css file because main too big and this is johnson starting this one */
 
+
+/* Everything Else portfolio fourth page */
+
 .ee {padding-top:50px; max-width:90% !important;}
 .ee img {background:#ccc; width:100%;}
 
-.row div {float:left; }
+.row div {float:left; max-height:100px;}
 
 .j-five { width:40%;}
 .j-three { width:30%;}
 .j-two { width:15%;}
+
+
+
+/* Freebiezzzzz page */
+

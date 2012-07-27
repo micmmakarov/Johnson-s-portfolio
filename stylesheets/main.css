@@ -414,6 +414,11 @@ left:50%;
 cursor:pointer;
 display:block;
 }
+
+.photo-tri {
+background: url(../images/image.png) no-repeat left -1137px;
+}
+
 .green-triangle {
 background: url(../images/image.png) no-repeat -187px -676px;
 width:190px;
