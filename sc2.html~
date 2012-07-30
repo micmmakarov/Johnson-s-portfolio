@@ -71,11 +71,10 @@ left:0px;
 	<div class=white-johnson></div>
 	<a href="#start" class="nav back-to-the-top right"></a>
 	<ul class="row" style="max-width:800px;">
-		<li>&nbsp</li>
 		<li><a href="index.html?skip_intro=yes!">Showcase</a></li>
 		<li><a class="showcase2 active">Showcase2</a></li>
-		<li><a>Photography</a></li>
-		<li><a>Everything Else</a></li>
+		<li><a class="strike">Photography</a></li>
+		<li><a class="strike">Everything Else</a></li>
 	</ul>
 
 </div>
@@ -160,15 +159,15 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 <ul id="nav" class=hideble>
 		<li style="display:none;"><a class="nav nav-point" href="#sc2start" title="Next Section"><p>0</p></a><div class=clear></div><a href="#sc2start" class="nav project-name"><p>Start page</p></a></li>
 
-	    <li><a class="nav nav-point" href="#sc21" title="Next Section"><p>1</p></a><div class=clear></div><a href="#sc21" class="nav project-name"><p>o3 Bistro</p></a>
+	    <li><a class="nav nav-point" href="#sc21" title="Next Section"><p>1</p></a><div class=clear></div><a href="#sc21" class="nav project-name"><p>Sustainability</p></a>
 
-	    <li><a class="nav nav-point" href="#sc22" title="Next Section"><p>2</p></a><div class=clear></div><a href="#sc22" class="nav project-name"><p>Blissmo</p></a></li>
+	    <li><a class="nav nav-point" href="#sc22" title="Next Section"><p>2</p></a><div class=clear></div><a href="#sc22" class="nav project-name"><p>Who Date Abe?</p></a></li>
 
-	    <li><a class="nav nav-point" href="#sc23" title="Next Section"><p>3</p></a><div class=clear></div><a href="#sc23" class="nav project-name"><p>Fitsoft</p></a></li>
+	    <li><a class="nav nav-point" href="#sc23" title="Next Section"><p>3</p></a><div class=clear></div><a href="#sc23" class="nav project-name"><p>Tagline</p></a></li>
 
-	    <li><a class="nav nav-point" href="#sc24" title="Next Section"><p>4</p></a><div class=clear></div><a href="#sc24" class="nav project-name"><p>InkedStudios</p></a></li>
+	    <li><a class="nav nav-point" href="#sc24" title="Next Section"><p>4</p></a><div class=clear></div><a href="#sc24" class="nav project-name"><p>Access Mag</p></a></li>
 
-	    <li><a class="nav nav-point" href="#sc25" title="Next Section"><p>5</p></a><div class=clear></div><a href="#sc25" class="nav project-name"><p>Aslan Bikes</p></a></li>
+	    <li><a class="nav nav-point" href="#sc25" title="Next Section"><p>5</p></a><div class=clear></div><a href="#sc25" class="nav project-name"><p>Posters!</p></a></li>
 
 	    <li style="display:none;"><a class="nav nav-point" href="#footer-slide" title="Next Section"><p>6</p></a><div class=clear></div><a href="#footer-slide" class="nav project-name"><p>Footer</p></a></li>
 		<div class="arrow-up"></div>
@@ -194,7 +193,7 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 					</div>
 				</div>
 				<div class="row about-email">
-					<a href="mailto:someone@example.com?Subject=Hello%20There" alt="" class="johnson-email"><h2 class="">first&nbsp;name&nbsp;johnson<span>&nbsp;at&nbsp;</span>gmail<span>&nbsp;dot&nbsp;</span>com</h2></a>
+					<a href="mailto:firstnamejohnson@gmail.com?Subject=Hello%20There" alt="" class="johnson-email"><h2 class="">first&nbsp;name&nbsp;johnson<span>&nbsp;at&nbsp;</span>gmail<span>&nbsp;dot&nbsp;</span>com</h2></a>
 				</div>
 				<div class=row>
 					<div class="five columns show-on-desktops">
@@ -227,8 +226,8 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 			<h1 class="main-logo johnson-s-logo"></h1>
 			<ul class="main-menu hideble">
 				<li><a href="#" class=active>Portfolio</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Freebies</a></li>
+				<li><a href="#" class="strike">Blog</a></li>
+				<li><a href="#" class="strike">Freebies</a></li>
 				<li><a href="#" data-link="about">About/contact</a></li>
 			</ul>
 			
@@ -238,15 +237,15 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 			<ul class="sub-menu hideble">
 				<li><a href="index.html?skip_intro=yes!">Showcase</a></li>
 				<li><a href="sc2.html" class=active>Showcase2</a><div class="small-triangle"></div></li>
-				<li><a href="#">Photography</a></li>
-				<li><a href="#">Everything Else</a></li>
+				<li><a href="#" class="strike">Photography</a></li>
+				<li><a href="#" class="strike">Everything Else</a></li>
 			</ul>
 			
 
 			<div class=clear></div>
 			<p class="hello-text">
 				<span class="hello-text-content">
-					Real world projects, client work&mdash; as Will Ferrell might say &ldquo;Gets the people going!&rdquo; Below are a few selected client projects, ranging from print to web to things that fall in between the proverbial creative seat cushions.
+					Second part of my showcase; don't think of it as the ignored middle child. In most these projects, I had full creative freedom to the process. Think of it as projects I like to do on my spare time.    
 				</span>
 			</p>
 			
@@ -456,9 +455,9 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 			<div class="seven columns">
 				<div class=johnson-set-paddings2>
 					<p>
-						Ink on paper &#61; poster; in my opinion, the most satisfying way to deliver information to the general public, regardless of their associations, beliefs, or ethics. Like its cousins: book covers and beer &amp; wine bottles labels, there are no rules to the canvas, other than to convey the target message. 
+						Ink on big paper &#61; poster; in my opinion, the most satisfying way to deliver information to the general public, regardless of their associations, beliefs, or ethics. Like its cousins: book covers and beer &amp; wine bottles labels, there are no rules to the canvas, other than to convey the target message. 
 					</p>
-					<span class=expand><a href="#" class="">Expand and View More of This Logo's Process</a></span>
+					<span class=expand style="display:block;"><a href="#" class="">View more posters in &#8220;Everything Else&#8221; section</a></span>
 				</div>
 			</div>
 			
@@ -473,9 +472,9 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 			<div class=green-triangle>
 			</div>
 			<div style="text-align:center;">
-				<p>Thanks for looking. I have a couple more projects I want to show, but its current in secret development so I can't share yet. Anywho, best way to contact me is to email me at:</p>
-					<a href="mailto:someone@example.com?Subject=Hello%20There" alt="" class="johnson-email"><h2 class="">first&nbsp;name&nbsp;johnson<span>&nbsp;at&nbsp;</span>gmail<span>&nbsp;dot&nbsp;</span>com</h2></a>
-				<p>Be sure check out the rest of my stuff in <span class=one>Showcase2</span>, <span class=two>Photography</span>, &amp; <span class=two>Everything Else</span> as those pages shows projects that I consider of a more independent nature.</p>
+				<p>Thanks for checking out my stuff. Feel not awkward to contact me at:</p>
+					<a href="mailto:firstnamejohnson@gmail.com?Subject=Hello%20There" alt="" class="johnson-email"><h2 class="">first&nbsp;name&nbsp;johnson<span>&nbsp;at&nbsp;</span>gmail<span>&nbsp;dot&nbsp;</span>com</h2></a>
+				<p>Be sure check out more of my work in <a href="sc2.html" class=one strike>Photography</a>, <a href="sc2.html" class="strike">Everything Else</a>, and help yourself to some <a href="sc2.html" class="strike">Freebies</a>.</p>
 			</div>
 		
 			<a class="nav back-to-the-top-of-the-page" href="#sc2start">
