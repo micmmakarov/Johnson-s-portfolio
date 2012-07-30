@@ -1186,12 +1186,4 @@ font-size:17px;
 /* strike-out because not complete */
 .strike {text-decoration: line-through;}
 
-.transparent1 {
-background: rgba(0,0,0,0.7);
-}
-.johnson-box {
-margin-top:350px !important;
-padding:40px 20px 50px 20px;
-}
 
-.johnson-box h2, johnson-box .subtitle {margin-left:0px;}

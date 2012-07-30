@@ -14,5 +14,37 @@
 
 
 
-/* Freebiezzzzz page */
+/* photo page */
 
+.transparent1 {
+background: rgba(0,0,0,0.8);
+}
+.johnson-box {
+margin-top:23% !important;
+padding:40px 20px 50px 30px;
+}
+
+.johnson-box h2, .johnson-box span.subtitle {margin-left:0px;}
+.johnson-set-new-paddings {margin-top:20px;}
+.johnson-set-new-paddings p {margin-bottom:30px;}
+
+a.expand-button {
+padding-top:7px; padding-left:43px;
+display:block;
+width:200px; height:37px; 
+color:white;
+text-shadow:0px -1px 0px #8f3213;
+font-size:15px;
+
+background: url(../images/image.png) no-repeat -11px -1031px; 
+
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* IE 8+ */
+	
+}
+
+a.expand-button:hover { background: url(../images/image.png) no-repeat -11px -1083px; }
+
+.jc-modal {background: none; box-shadow:none;}
+	.reveal-modal-bg { opacity: 0.8 !important;} 
