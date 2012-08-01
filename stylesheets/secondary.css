@@ -4,15 +4,18 @@
 /* Everything Else portfolio fourth page */
 
 .ee {padding-top:50px; max-width:90% !important;}
-.ee img {background:#ccc; width:100%;}
+.freebie img {background:#ccc; width:90%; height:300px; display:block; margin:auto; margin-top:5%; 	
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* IE 8+ */
+}
+.freebie {width:32.7%; float:left; background:red;}
 
-.row div {float:left; max-height:100px;}
 
-.j-five { width:40%;}
-.j-three { width:30%;}
-.j-two { width:15%;}
+.lefter {margin-left:1%;}
 
-
+.second-row {margin-top:-30px !important;}
 
 /* photo page */
 
@@ -48,3 +51,7 @@ a.expand-button:hover { background: url(../images/image.png) no-repeat -11px -10
 
 .jc-modal {background: none; box-shadow:none;}
 	.reveal-modal-bg { opacity: 0.8 !important;} 
+
+div.feat-vertical img {max-width:450px !important;}
+
+/* end of photo page css */
