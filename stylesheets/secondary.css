@@ -54,4 +54,6 @@ a.expand-button:hover { background: url(../images/image.png) no-repeat -11px -10
 
 div.feat-vertical img {max-width:450px !important;}
 
+.orbit-wrapper {max-width:1000px;}
+
 /* end of photo page css */
