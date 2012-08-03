@@ -52,7 +52,7 @@ div.feat-vertical img {max-width:450px !important;}
 
 
 .freebie-wall, .freebie-stock {
-width:32.6%; min-width: 200px; 
+width:32.65%; min-width: 200px; 
 float:left; 
 background:#f8f8f8;
 padding: .7%;	
@@ -68,7 +68,7 @@ padding: .7%;
 
 }
 
-.freebie-stock { width:24.2%;}
+.freebie-stock { width:24.25%; min-width: 150px;}
 
 .freebie-wall img, .freebie-stock img {
 width:100%; 
@@ -85,11 +85,11 @@ margin-left:11px;
 }
 	
 .freebie-wall p, .freebie-stock p {
-font-size:11.5px; 
+font-size:12px; 
 color:#999; 
 letter-spacing: 0.1em; 
 margin-top:3px; margin-bottom:7px; margin-left:11px; 
-line-height: 15px;
+line-height: 16px;
 }
 
 .lefter {margin-left:1%;}
@@ -102,21 +102,37 @@ margin-right:20px;
 margin-top:5px;  
 }
 
-.photog .centered {
+.photog .centered a:first-child {margin-right: 10px;}
+
+.photog .centered .innards {
 font-size:15px; 
 line-height:20px; 
 color:#003333;
+min-width: 220px;
+max-width: 700px;
+margin: auto;
 }
-	
+
 
 .photog blockquote { 
 margin-bottom: -10px;
 color: #cc3300; 
 font-size: 12px; 
 letter-spacing: 0.2em;
-height:25px; 
+height:15px; 
 background: url('../images/bg/red-dot-line.png'); 
 text-shadow: 2px 0px 0px white;
 text-align: center;
 }	
+
+.photog a {
+color:#C30; 
+display: block; 
+max-width: 180px;
+font-size: 12px; 
+letter-spacing: 0.09em;
+margin-top:5%;
+}
+.photog a:hover {color:black;}
+.photog a span {color:#999;}
 
