@@ -45,18 +45,78 @@ div.feat-vertical img {max-width:450px !important;}
 
 
 
-/* Freebies page */
+/* freebie-walls page */
 
-.ee {padding-top:50px; max-width:90% !important;}
+.photog {padding-top:50px; max-width:90% !important;}
 
 
 
-.freebie {width:32%; min-width: 200px; float:left; background:red;}
+.freebie-wall, .freebie-stock {
+width:32.6%; min-width: 200px; 
+float:left; 
+background:#f8f8f8;
+padding: .7%;	
 
-.freebie img {width:100%; height: 100px; background: green;}
+	text-shadow: 0px 1px 0px #f4f4f4;
+
+  -webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.2), inset 1px 1px 0px white;
+          box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.2), inset 1px 1px 0px white;
+
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* IE 8+ */
+
+}
+
+.freebie-stock { width:24.2%;}
+
+.freebie-wall img, .freebie-stock img {
+width:100%; 
+height: auto; 
+background: green;
+}
+	
+.freebie-wall h5, .freebie-stock h5 {
+margin-top:15px; 
+font-size:25px; text-transform: uppercase; 
+font-family:ospdin, sans-serif; 
+color:#003333; 
+margin-left:11px;
+}
+	
+.freebie-wall p, .freebie-stock p {
+font-size:11.5px; 
+color:#999; 
+letter-spacing: 0.1em; 
+margin-top:3px; margin-bottom:7px; margin-left:11px; 
+line-height: 15px;
+}
 
 .lefter {margin-left:1%;}
 
 .second-row {margin-top:-35px !important;}
 
+.photog .centered a {
+float:left; 
+margin-right:20px; 
+margin-top:5px;  
+}
+
+.photog .centered {
+font-size:15px; 
+line-height:20px; 
+color:#003333;
+}
+	
+
+.photog blockquote { 
+margin-bottom: -10px;
+color: #cc3300; 
+font-size: 12px; 
+letter-spacing: 0.2em;
+height:25px; 
+background: url('../images/bg/red-dot-line.png'); 
+text-shadow: 2px 0px 0px white;
+text-align: center;
+}	
 
