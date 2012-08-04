@@ -84,7 +84,7 @@ color:#003333;
 margin-left:11px;
 }
 	
-.freebie-wall p, .freebie-stock p {
+.freebie-wall p, .freebie-stock p, .pin-ee p {
 font-size:12px; 
 color:#999; 
 letter-spacing: 0.1em; 
@@ -92,6 +92,7 @@ margin-top:3px; margin-bottom:7px; margin-left:11px;
 line-height: 16px;
 }
 
+.pin-ee p {margin-left:2px; margin-top:2%}
 .lefter {margin-left:1%;}
 
 .second-row {margin-top:-35px !important;}
@@ -136,3 +137,38 @@ margin-top:5%;
 .photog a:hover {color:black;}
 .photog a span {color:#999;}
 
+
+
+/* Everything Else page */
+
+.pin-ee {
+list-style-type: none;
+position: relative; /** Needed to ensure items are laid out relative to this container **/
+margin: 0;
+
+}
+
+/**
+* Grid items
+*/
+.pin-ee li {
+width: 250px;
+background-color: #f8f8f8;
+display: none; /** Hide items initially to avoid a flicker effect **/
+cursor: pointer;
+padding: 4px;
+box-sizing:border-box;
+
+	padding: 7px; 
+	margin-bottom: 10px;
+	
+  -webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.2), inset 1px 1px 0px white;
+          box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.2), inset 1px 1px 0px white;
+
+}
+
+ul.pin-ee li img {background: gray;}
+
+.pins {margin-top:3%;}
+
+.row .footer {float:right;}
