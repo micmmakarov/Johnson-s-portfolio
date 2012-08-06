@@ -34,7 +34,7 @@ background: url(../images/image.png) no-repeat -11px -1031px;
 a.expand-button:hover { background: url(../images/image.png) no-repeat -11px -1083px; }
 
 .jc-modal {background: none; box-shadow:none;}
-	.reveal-modal-bg { opacity: 0.8 !important;} 
+
 
 div.feat-vertical img {max-width:450px !important;}
 
@@ -48,7 +48,6 @@ div.feat-vertical img {max-width:450px !important;}
 /* freebie-walls page */
 
 .photog {padding-top:50px; max-width:90% !important;}
-
 
 
 .freebie-wall, .freebie-stock {
@@ -92,7 +91,7 @@ margin-top:3px; margin-bottom:7px; margin-left:11px;
 line-height: 16px;
 }
 
-.pin-ee p {margin-left:2px; margin-top:2%}
+.pin-ee p {margin-left:2px; margin-top:2%; margin-bottom:0px;}
 .lefter {margin-left:1%;}
 
 .second-row {margin-top:-35px !important;}
@@ -126,7 +125,7 @@ text-shadow: 2px 0px 0px white;
 text-align: center;
 }	
 
-.photog a {
+.photog a.stock {
 color:#C30; 
 display: block; 
 max-width: 180px;

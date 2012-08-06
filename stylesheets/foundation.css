@@ -661,12 +661,12 @@
 /*	--------------------------------------------------
    	Tooltips
 	-------------------------------------------------- */
-	.has-tip {
+/* 	.has-tip {
 	  border-bottom: dotted 1px #ccc;
 	  cursor: help;
 	  font-weight: bold;
 	  color: #333;
-	}
+	} */
 	.has-tip:hover {
 	  border-bottom: dotted 1px #0593dc;
 	  color: #0192dd;
