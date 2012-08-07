@@ -47,6 +47,8 @@ div.feat-vertical img {max-width:450px !important;}
 
 /* freebie-walls page */
 
+a.red {color:#C30;}
+
 .photog {padding-top:50px; max-width:90% !important;}
 
 
@@ -56,7 +58,6 @@ float:left;
 background:#f8f8f8;
 padding: .7%;	
 
-	text-shadow: 0px 1px 0px #f4f4f4;
 
   -webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.2), inset 1px 1px 0px white;
           box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.2), inset 1px 1px 0px white;
@@ -96,13 +97,13 @@ line-height: 16px;
 
 .second-row {margin-top:-35px !important;}
 
-.photog .centered a {
+.photog .centered .topper a {
 float:left; 
 margin-right:20px; 
 margin-top:5px;  
 }
 
-.photog .centered a:first-child {margin-right: 10px;}
+.photog .centered .topper a:first-child {margin-right: 10px;}
 
 .photog .centered .innards {
 font-size:15px; 
@@ -113,6 +114,9 @@ max-width: 700px;
 margin: auto;
 }
 
+.twelve.column.centered {
+background: url('../images/bg/red-dot-line.png'); 
+}
 
 .photog blockquote { 
 margin-bottom: -10px;
@@ -120,9 +124,11 @@ color: #cc3300;
 font-size: 12px; 
 letter-spacing: 0.2em;
 height:15px; 
-background: url('../images/bg/red-dot-line.png'); 
-text-shadow: 2px 0px 0px white;
 text-align: center;
+background: #fbfbfb;
+display: block;
+max-width:270px;
+margin: auto;
 }	
 
 .photog a.stock {
@@ -136,7 +142,7 @@ margin-top:5%;
 .photog a:hover {color:black;}
 .photog a span {color:#999;}
 
-
+.photog {text-shadow:0px 1px 0px white;}
 
 /* Everything Else page */
 
@@ -145,7 +151,11 @@ list-style-type: none;
 position: relative; /** Needed to ensure items are laid out relative to this container **/
 margin: 0;
 
+text-shadow: 0px 1px 0px white;
 }
+
+/* .pins {max-width: 1800px !important; margin: auto;} */
+.pins {margin-top:3%;}
 
 /**
 * Grid items
@@ -168,6 +178,9 @@ box-sizing:border-box;
 
 ul.pin-ee li img {background: gray;}
 
-.pins {margin-top:3%;}
 
-.row .footer {float:right;}
+
+li.ee-blurb {font-family: 'classicround', serif; cursor:default; display: block;}
+	li.ee-blurb p{font-size: 24px; letter-spacing:0; line-height: 24px; color:#666;}
+			li.ee-blurb p:first-letter {color:#cc3300;}
+				li.ee-blurb p:first-line {color:#333;}
