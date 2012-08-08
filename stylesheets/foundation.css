@@ -1152,7 +1152,7 @@ ul.orbit-bullets li.has-thumb {
 	.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px; margin-top:-50px;}
 		.reveal-modal.xslarge 		{ width: 900px; margin-left: -490px; margin-top:-5%;}
 	.reveal-modal.xxlarge 		{ width: 1000px; margin-left: -540px; margin-top:-30px;}
-		.reveal-modal.showcase 	{ width:70%; margin-left:-37%; background:none;}
+		.reveal-modal.showcase 	{ width:1063px; margin-left:-575px; background:none;}
 
 	.reveal-modal .close-reveal-modal {
 		font-size: 22px;

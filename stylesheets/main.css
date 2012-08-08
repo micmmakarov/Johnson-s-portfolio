@@ -476,6 +476,7 @@ float:none;
 }
 
 @media only screen and (max-width: 980px) {
+
 .green-bar .white-johnson {
 display:none;
 }
@@ -504,7 +505,7 @@ margin-top:30px;
 margin-bottom:100px;
 }
 .project-popup, .popup-text {
-padding:15px;
+padding:15px; 
 }
 .johnson-set-paddings2 {max-width:5000px;padding:15px;}
 #nav {
@@ -537,9 +538,7 @@ text-align:center;
 width:40%;
 }
 
-.main-menu {
-width:100%;
-}
+
 
 	.padding15 {
 	padding:15px 15px !important;
@@ -988,7 +987,12 @@ font-size:15px;
 line-height: 21px; 
 color:#f7f7f7; 
 text-shadow:1px 1px 1px rgba(0,0,0,0.7);
+margin-top:30px;
 }
+
+.popup-text p {margin-bottom:15px;}
+
+
 .green-line {
 /*margin-left:-480px;*/
 background:url(../images/bg/line-turquoise-color.png) no-repeat 50% top;
@@ -1190,5 +1194,13 @@ font-size:17px;
 
 /* showcase modal popup */
 .reveal-modal .row {margin-top: 0px;} 
-
-.j-pics img {display: block; margin: auto; margin-bottom:15px;}
+.showcase .row {max-width:1062px !important;}
+.j-pics img {display: block; margin: auto; margin-bottom:9px;}
+.j-pics p {
+text-align: center; display: block;
+font-size:13px; 
+color:#999; 
+letter-spacing: 0.1em; 
+margin-bottom:20px;
+text-shadow: 1px 1px 3px black;
+}
