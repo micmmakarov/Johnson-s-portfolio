@@ -1167,6 +1167,7 @@ display:block;
 content:' ';
 color:black; 
 }
+
 .back-to-the-top-of-the-page:hover {
 color:black;
 }
@@ -1187,3 +1188,7 @@ font-size:17px;
 .strike {text-decoration: line-through;}
 
 
+/* showcase modal popup */
+.reveal-modal .row {margin-top: 0px;} 
+
+.j-pics img {display: block; margin: auto; margin-bottom:15px;}

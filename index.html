@@ -35,6 +35,13 @@
 
 <link href='http://fonts.googleapis.com/css?family=Asap:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
+		<style>
+		 /* popup color */
+		 	.reveal-modal-bg { opacity: 0.85 !important;} 
+		 	filter: alpha(opacity=85); /* IE6-IE8 */
+		
+		</style>
+
 </head>
 <body>
 
@@ -270,7 +277,7 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 					<p>
 						This asian fusion bistro next to the San Francisco City Hall wanted to leverage it's prime location towards politicians &amp; symphony goers without putting off young professionals. Working off the interior designer's decor plans, typeface and colors were chosen to compliment the inside, as were the creations of the menus and logo. 
    					</p>
-					<span class=expand><a href="#" class="">Expand and View More of This Project in Detail</a></span>
+					<span class=expand><a href="#" class="" data-reveal-id="myModal2" data-animation="fade">Expand and View More of This Project in Detail</a></span>
 				</div>
 			</div>
 			
@@ -480,7 +487,7 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 				</span>
 			</p>
 			
-			<div class="johnson-canvas row show-on-desktops">
+			<div class="johnson-canvas row show-on-desktops" style="margin-top:50px;">
 				
 				<div class="six columns ">
 				<div class=cta_box>
@@ -578,7 +585,7 @@ function getUrlVars() {
 	 	
 
 
-	 $(".expand").click(function (e) {
+	 $("1.expand").click(function (e) {
 		e.preventDefault();
 		$(".left-slide").animate({"width":"100%"}, 1000);
 		$(".left-slide-content").load("left-slide.html");
@@ -783,6 +790,37 @@ vibrate();
 
 
 	</script>
+
+<div id="myModal2" class="reveal-modal showcase">
+
+	<div class="row">
+			<div class="eight column j-pics">
+				<img src="images/popup/1.jpg" class="" />
+				<img src="images/popup/2.jpg" class="" />
+				<img src="images/popup/3.jpg" class="" />
+				<img src="images/popup/4.jpg" class="" />
+				<img src="images/popup/5.jpg" class="" />
+				<img src="images/popup/6.jpg" class="" />
+			</div><!--end column-->
+	
+			<div class="four column">
+				<div class=project-popup>
+					<h2>TITLE OF THING HERE</h2>
+						<span class=subtitle>print &nbsp; / &nbsp; web &nbsp; / &nbsp; branding</span>
+				</div><!--end project-popup-->
+				<div class=popup-text>
+					<p>This is a 11 inch by 17 inch concept map about the process of creating buildings through greener and more environmentally- friendly means, or sustainable architecture. On the map, important elements are bolder and bigger, while details and tertiary information are smaller and lighter.</p>
+					<p>
+	This is a 11 inch by 17 inch concept map about the process of creating buildings through greener and more environmentally- friendly means, or sustainable architecture. On the map, important elements are bolder and bigger, while details and tertiary information are smaller and lighter.
+					</p>
+				</div><!--end popup-text-->	
+			</div><!--end column-->
+	
+	</div><!--end row-->
+		
+			<a class="close-reveal-modal">&#215;</a>
+
+</div><!--end modal-->
 
 </body>
 
