@@ -1195,12 +1195,14 @@ font-size:17px;
 /* showcase modal popup */
 .reveal-modal .row {margin-top: 0px;} 
 .showcase .row {max-width:1062px !important;}
-.j-pics img {display: block; margin: auto; margin-bottom:9px;}
+.j-pics img {display: block; margin: auto; margin-bottom:5px;}
 .j-pics p {
 text-align: center; display: block;
 font-size:13px; 
 color:#999; 
-letter-spacing: 0.1em; 
+letter-spacing: 0.1em; line-height: 16px;
 margin-bottom:20px;
 text-shadow: 1px 1px 3px black;
 }
+
+.j-pics p:first-letter {color:#666; font-size:10px;}
