@@ -1125,7 +1125,8 @@ ul.orbit-bullets li.has-thumb {
 		z-index: 40;
 		display: none;
 		top: 0;
-		left: 0; 
+		left: 0;
+		z-index: 15000; 
 		}
 	
 	.reveal-modal {
@@ -1144,6 +1145,7 @@ ul.orbit-bullets li.has-thumb {
 		-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
 		-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
 		box-shadow: 0 0 10px rgba(0,0,0,.4);
+		z-index:15001;
 		}
 		
 	.reveal-modal.small 		{ width: 200px; margin-left: -140px; margin-top:-50px;}

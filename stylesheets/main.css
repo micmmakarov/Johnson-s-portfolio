@@ -1071,7 +1071,7 @@ overflow-x:hidden;
 	position:fixed;
 	right:0;
 	top:-70px;
-	z-index:99999;
+	z-index:14999;
 	padding:0px;
 	height:44px;
 	width:100%;
@@ -1204,6 +1204,12 @@ letter-spacing: 0.1em; line-height: 16px;
 margin-bottom:20px;
 text-shadow: 1px 1px 3px black;
 }
+<<<<<<< HEAD
 .popup-text p:first-child {font-size: 12px; letter-spacing: 0.09em; color:#666; line-height: 17px; }
 .j-pics p:first-letter {color:#666; font-size:10px;}
 em {font-style: italic;}
+=======
+
+.j-pics p:first-letter {color:#666; font-size:10px;}
+.modal-fix {overflow-y:scroll;}
+>>>>>>> group edits
