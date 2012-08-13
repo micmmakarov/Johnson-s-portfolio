@@ -1167,6 +1167,26 @@ ul.orbit-bullets li.has-thumb {
 		font-weight: bold;
 		cursor: pointer;
 		} 
+
+	.close-reveal-modal.pt2 {
+		display:block; 
+		position: relative; 
+		right:0px; top:0px; 
+		margin-top:35px; 
+		text-align: center; 
+		padding: 11px 15px 15px 15px; 
+		background: #399; 
+		
+		color:white; 
+		text-shadow:0px -1px 0px #1c6969;
+		
+		border-top:1px solid #65d5d5;	
+		  -webkit-border-radius: 12px;
+		          border-radius: 12px;
+		  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+	} 	
+	
+	.pt2 span {font-size:medium; }
 	
 	.reveal-modal .row {
 		min-width: 0;
