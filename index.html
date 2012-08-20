@@ -779,6 +779,19 @@ vibrate();
 	
 $(".modal-fix").height($(window).height()-50);
 	
+	//this stuff fixes hidden modals
+  $(".reveal-modal").hide();	
+	$('[data-reveal-id]').bind('click', function() {
+    $(".reveal-modal").show();  
+  });
+	$('.reveal-modal-bg').bind('click', function() {
+    $(".reveal-modal").hide();  
+  });
+	$('.reveal-modal').bind('click', function() {
+    $(".reveal-modal").hide();  
+  });
+	
+	
 	});
 
 
