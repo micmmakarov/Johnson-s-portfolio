@@ -1210,7 +1210,7 @@ text-shadow: 1px 1px 3px black; color:#999;
 	.j-pics p:first-letter {color:#c30 !important; font-size:10px;}
 		.popup-text h3 {font-family: 'asap', san-serif; font-size:16px; font-weight: bold; color: #eee; text-transform:uppercase; margin-bottom: 7px; margin-top:23px;}
 
-em {font-style: italic;}
+em {font-style: italic; color:#fff;}
 
 
 
