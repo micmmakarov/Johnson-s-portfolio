@@ -524,7 +524,7 @@ This is a 11 inch by 17 inch concept map about the process of creating buildings
 	<script type="text/javascript" src="javascripts/jquery.scrollorama.js"></script>
 	<script type="text/javascript" src="javascripts/jquery.scrolldeck.js"></script>
 
-	<script src="javascripts/foundation.js"></script>
+	<script src="javascripts/foundation-showcase.js"></script>
 	<script src="javascripts/app.js"></script>
 	
 	<script>
@@ -539,6 +539,7 @@ function getUrlVars() {
 
 
 	$(document).ready(function () {
+		
 		
 			RepositionNav();
 
@@ -622,9 +623,9 @@ function getUrlVars() {
 		if (w > 700) { var l = '620px'; }
 		if (w > 1200) { var l = '520px'; }
 		if (w <= 960) { var l = '850px'; }
-		$(".about-content").hide(0);
-		$(".about").stop().animate({'height':l},700);
-		$(".about-content").delay(200).fadeIn(1500);
+		//$(".about-content").hide(0);
+		//$(".about").stop().animate({'height':l},700);
+		//$(".about-content").delay(200).fadeIn(1500);
 		
 	 });
 	 $("a[data-link='close-about']").click(function (e) {
@@ -784,19 +785,21 @@ $(".modal-fix").height($(window).height()-50);
 	$('[data-reveal-id]').bind('click', function() {
     $(".reveal-modal").show();  
   });
-	$('.reveal-modal-bg').bind('click', function() {
-    $(".reveal-modal").hide();  
+	$('.1reveal-modal-bg').bind('click', function() {
+    hidebackgrounds($(this))
+    
   });
-	$('.reveal-modal').bind('click', function() {
-    $(".reveal-modal").hide();  
+	$('.1reveal-modal').bind('click', function() {
+    hidebackgrounds($(this))
   });
 	
 	
 	});
 
-function hidebackgrounds() {
+function hidebackgrounds(e) {
     $(".reveal-modal").hide();  
-	
+	$.scrollTo(800, 0);
+
 }
 	</script>
 
