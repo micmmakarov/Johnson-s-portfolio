@@ -44,7 +44,45 @@
 </head>
 <body>
 
-
+	<div class=about>
+		<div class="about-content row" style="padding-top:40px;max-width:1200px;">
+			<div class="four columns">
+			
+						<div class=johnson-s-photo>
+							<img src="images/about-contact-photo.jpg" style="width:100%;height:auto;" />
+						</div>
+			
+			</div>
+			<div class="eight columns">
+				<div class=row>
+					<div class="five columns">
+					</div>
+					<div class="seven columns">
+						<p class=padding15>Hey there, you. Yeah, you right there, looking at my portfolio site right this instant. If you want to contact me, email me at:</p>
+					</div>
+				</div>
+				<div class="row about-email">
+					<a href="mailto:firstnamejohnson@gmail.com?Subject=Hello%20There" alt="" class="johnson-email"><h2 class="">first&nbsp;name&nbsp;johnson<span>&nbsp;at&nbsp;</span>gmail<span>&nbsp;dot&nbsp;</span>com</h2></a>
+				</div>
+				<div class=row>
+					<div class="five columns show-on-desktops">
+					<p class="small-text"><em>Things I find annoying:</em> People that hate on Comic Sans and lets everyone know it &#8226; People who love Helvetica and lets everyone know it &#8226; Flickr's and iTunes's interface &#8226; Internet articles about the Top # of Inpiration/Mesmerizing [insert topic that helps your profession] List &#8226; Conforming to logo trends (aka everyone) &#8226; People who makes a list of things that annoys them &#61; super d-bags [wait a minute..].
+					</p>
+						<p class=small-text>
+							About this site: Built upon Zurb's Foundation, with jquery scripts out the ying yang. I want to thank front-end developer, Michael Marakov, for figuring out all the javascript and animations and putting the structure of this website together. This is the fourth iteration of my online portfolio.
+						</p>
+					</div>
+					<div class="seven columns">
+					<p class="social">You can find me on <a href="http://pinterest.com/johnsoniscool/" target="blank">Pinterest</a>, <a href="https://twitter.com/#!/johnsoniscool" target="blank">Twitter</a> <span>(possibly NSFW)</span>, & <a href="http://www.linkedin.com/in/johnsonchen" target="blank">LinkedIn</a>.</p> <p>I'm also lurking on Flickr, Behanced, and DeviantArt, so catch me if you can.</p>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+		<div class=row style="text-align:right;overflow:hidden;">
+		</div>
+			<a href="#" data-link="close-about" class=close></a>
+	</div>
 
 
 <div class=row style="margin-top:20px;">
@@ -185,6 +223,34 @@
 <script>
 $(document).ready( function () {
 	$('.pin-ee li').wookmark({offset: 10, autoResize: true, container: $(".pins")});
+	
+		$(document).ready(function () {
+
+		 $("a[data-link='about']").click(function (e) {
+		e.preventDefault();
+		var w = $(window).width();
+		if (w > 700) { var l = '620px'; }
+		if (w > 1200) { var l = '520px'; }
+		if (w <= 960) { var l = '850px'; }
+		$(".about").css("margin-top", "-20px");
+		$(".about-content").hide(0);
+		$(".about").stop().animate({'height':l},700);
+		$(".about-content").delay(200).fadeIn(1500);
+		
+	 });
+	 $("a[data-link='close-about']").click(function (e) {
+		e.preventDefault();
+		$(".about").css({'margin-top':'-20px'});
+		$(".about").stop().delay(0).animate({'margin-top':'-700px'},1000);
+		$(".about").stop().delay(500).animate({'height':'0px'},0);
+		$(".about").delay(500).animate({'margin-top':'-20px'},0);
+
+	 });
+
+		$(document).tooltips();
+		});
+
+
 });
 </script>
 
@@ -193,7 +259,10 @@ $(document).ready( function () {
 	<script src="javascripts/app.js"></script>
 
 
+
+
 </body>
+
 <div id="myModal2" class="reveal-modal xlarge jc-modal">
 
 			sfdsfdsfds	
