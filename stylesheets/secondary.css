@@ -91,6 +91,9 @@ letter-spacing: 0.1em;
 margin-top:3px; margin-bottom:7px; margin-left:11px; 
 line-height: 16px;
 }
+	
+		.freebie-wall p a, .freebie-stock p a {color:#999;}
+			.freebie-wall p a:hover, .freebie-stock p a:hover {color:#C30;}
 
 .pin-ee p {margin-left:2px; margin-top:2%; margin-bottom:0px;}
 .lefter {margin-left:1%;}
