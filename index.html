@@ -64,75 +64,6 @@
 
 </div>
 
-<div class=left-slide>
-<div class="left-slide-content">
-
-
-// this will be loaded from another file!!
-<div class=row>
-	<div class="six columns">
-		<div class="row top_paddings">
-			<span class=m-slider-info></span>
-			<div class=m-slider>
-				<div class=image-wrap id="image-1">
-					<img src="images/popup/1.jpg" />
-				</div>
-				<div class=image-wrap id="image-2">
-					<img src="images/popup/2.jpg" />
-				</div>
-				<div class=image-wrap id="image-3">
-					<img src="images/popup/3.jpg" />
-				</div>
-				<div class=image-wrap id="image-4">
-					<img src="images/popup/4.jpg" />
-				</div>
-				<div class=image-wrap id="image-5">
-					<img src="images/popup/5.jpg" />
-				</div>
-				<div class=image-wrap id="image-6">
-					<img src="images/popup/6.jpg" />
-				</div>
-				<div class=image-wrap id="image-7">
-					<img src="images/popup/7.jpg" />
-				</div>
-			</div>
-			
-		</div>
-	</div>
-	<div class="six columns">
-		<div class="row top_paddings">
-				<div class=project-popup>
-					<h2>TITLE OF THING HERE</h2>
-					<span class=subtitle>print &nbsp; / &nbsp; web &nbsp; / &nbsp; branding</span>
-				</div>
-				<div class=popup-text>
-				<p>This is a 11 inch by 17 inch concept map about the process of creating buildings through greener and more environmentally- friendly means, or sustainable architecture. On the map, important elements are bolder and bigger, while details and tertiary information are smaller and lighter.</p>
-				<p>
-This is a 11 inch by 17 inch concept map about the process of creating buildings through greener and more environmentally- friendly means, or sustainable architecture. On the map, important elements are bolder and bigger, while details and tertiary information are smaller and lighter.
-				<a class=image-link data-image="5">Image5</a>
-				
-				<div class="m-slider-thumbs">
-				</div>
-				
-				<h1><a class="close-left-slide close-popup" href="#"></a></h1>
-				
-				</p>
-				</div>
-		</div>
-	</div>
-</div>
-
-
-
-
-
-
-
-
-</div>
-
-
-</div>
 
 <ul id="nav" class=hideble>
 		<li style="display:none;"><a class="nav nav-point" href="#start" title="Next Section"><p>0</p></a><div class=clear></div><a href="#start" class="nav project-name"><p>Start page</p></a></li>
@@ -620,9 +551,9 @@ function getUrlVars() {
 		if (w > 700) { var l = '620px'; }
 		if (w > 1200) { var l = '520px'; }
 		if (w <= 960) { var l = '850px'; }
-		//$(".about-content").hide(0);
-		//$(".about").stop().animate({'height':l},700);
-		//$(".about-content").delay(200).fadeIn(1500);
+		$(".about-content").hide(0);
+		$(".about").stop().animate({'height':l},700);
+		$(".about-content").delay(200).fadeIn(1500);
 		
 	 });
 	 $("a[data-link='close-about']").click(function (e) {
@@ -786,7 +717,7 @@ $(".modal-fix").height($(window).height()-50);
     hidebackgrounds($(this))
     
   });
-	$('.1reveal-modal').bind('click', function() {
+	$('.close-reveal-modal').bind('click', function() {
     hidebackgrounds($(this))
   });
 	
@@ -794,8 +725,9 @@ $(".modal-fix").height($(window).height()-50);
 	});
 
 function hidebackgrounds(e) {
+	//alert("fuck")
     $(".reveal-modal").hide();  
-	$.scrollTo(800, 0);
+	//s$.scrollTo(800, 0);
 
 }
 	</script>
