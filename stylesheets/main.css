@@ -704,10 +704,13 @@ font-size:18px;
 }
 
 .johnson-s-photo {
-padding:7px;
 background:white;
 box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+width:380px;
 }
+
+.johnson-s-photo img {margin-left:6.66px; float:left; width:120px; }
+.johnson-s-photo img:first-child{margin-left: none;}
 
 div.about .seven p {
 font-size:21px; 
