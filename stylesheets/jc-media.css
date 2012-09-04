@@ -14,10 +14,9 @@ Showcase stuff
 		}
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 700px) {
 	.hello-text {
-	font-size:x-large !important;
-	line-height:1.5em;
+		font-size:30px; line-height: 40px;	line-height:1.5em;
 	}
 
 	a.johnson-email-small h2{
@@ -27,6 +26,24 @@ Showcase stuff
 	}
 
 	a.johnson-email-small span {font-size:1em; color:#114844; text-shadow:0px 1px #9DDADF; }
+	
+	/* turns off background for showcases for smaller devices*/
+		#first {background: #000;}
+		#second {background: #e1e1e1;}
+		#third {background: #000;}
+		#fourth {background: #999;}
+		#fifth {background: #e1e1e1;}
+		
+		
+	/* freebies page */
+	
+}	
+	
 
+@media only screen and (max-width: 400px) {
 
+	.hello-text {
+	font-size:x-large !important;
+	line-height:1.5em;
 	}
+}

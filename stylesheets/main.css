@@ -70,7 +70,7 @@ background-attachment:fixed;
 }
 
 #first { 
-	background:url(../images/portfolio-images/1-showcase1/backgrounds/backgrounds-1-opt.jpg) 50% 0 no-repeat fixed;
+	background: #333 url(../images/portfolio-images/1-showcase1/backgrounds/backgrounds-1-opt.jpg) 50% 0 no-repeat fixed;
 	color: white;
 	height: 1000px;
 	margin: 0 auto;
@@ -80,7 +80,7 @@ background-attachment:fixed;
 }
 
 #second {
-	background:url(../images/portfolio-images/1-showcase1/backgrounds/backgrounds-2-opt.jpg) 50% 0 no-repeat fixed;
+	background: #e1e1e1 url(../images/portfolio-images/1-showcase1/backgrounds/backgrounds-2-opt.jpg) 50% 0 no-repeat fixed;
 	color: white;
 	height: 1000px;
 	margin: 0 auto;
@@ -91,7 +91,7 @@ background-attachment:fixed;
 }
 
 #third {
-	background:url(../images/portfolio-images/1-showcase1/backgrounds/backgrounds-3-opt.jpg) 50% 0 no-repeat fixed;
+	background: #000 url(../images/portfolio-images/1-showcase1/backgrounds/backgrounds-3-opt.jpg) 50% 0 no-repeat fixed;
 	color: white;
 	height: 1000px;
 	margin: 0 auto;
@@ -101,7 +101,7 @@ background-attachment:fixed;
 }
 
 #fourth {
-	background:url(../images/portfolio-images/1-showcase1/backgrounds/backgrounds-4-opt.jpg) 50% 0 no-repeat fixed;
+	background: #cecbc2 url(../images/portfolio-images/1-showcase1/backgrounds/backgrounds-4-opt.jpg) 50% 0 no-repeat fixed;
 	color: white;
 	height: 1000px;
 	margin: 0 auto;
@@ -111,7 +111,7 @@ background-attachment:fixed;
 	}
 
 #fifth {
-	background:url(../images/portfolio-images/1-showcase1/backgrounds/backgrounds-5-opt.jpg) 50% 0 no-repeat fixed;
+	background:#eee url(../images/portfolio-images/1-showcase1/backgrounds/backgrounds-5-opt.jpg) 50% 0 no-repeat fixed;
 	color: white;
 	height: 1000px;
 	margin: 0 auto;
@@ -121,7 +121,7 @@ background-attachment:fixed;
 	}
 
 #footer-slide {
-	background:url(../images/portfolio-images/1-showcase1/backgrounds/backgrounds-6-opt.jpg) 50% 0 no-repeat fixed;
+	background:#399 url(../images/portfolio-images/1-showcase1/backgrounds/backgrounds-6-opt.jpg) 50% 0 no-repeat fixed;
 	color: white;
 	height: 1000px;
 	margin: 0 auto;
@@ -288,7 +288,7 @@ margin-right:0px;
 
 .main-menu li {
 float:left; 
-font-family: 'ospdin', Helvetica Neue, sans-serif; 
+font-family: 'ospdin', 'Futura', 'Arial Narrow', Arial, sans-serif; 
 font-size:30px;
 text-transform:uppercase;
 margin-right:70px;
@@ -320,7 +320,7 @@ body {
 	}
 
 h1 {
-	font-family: 'ospdin', Helvetica Neue, sans-serif; 
+	font-family: 'ospdin', 'Futura', 'Arial Narrow', Arial, sans-serif; 
 	text-transform:uppercase; 
 	font-size:58px; 
 	text-shadow:0px 1px 0px white;
@@ -367,7 +367,7 @@ line-height:21px;
 
 
 h2 {
-font-family: 'ospdin', Helvetica Neue, sans-serif; 
+font-family: 'ospdin', 'Futura', 'Arial Narrow', Arial, sans-serif; 
 font-size:50px; 
 line-height:44px; 
 color:white;
@@ -631,7 +631,7 @@ div.orbit-wrapper div.slider-nav span.left {
 		height:42px;
 		overflow:hidden;
 		text-align:right;
-		font-family: 'ospdin', Helvetica Neue, sans-serif;
+		font-family: 'ospdin', 'Futura', 'Arial Narrow', Arial, sans-serif; 
 		font-size:30px;
 	}
 	.nav-point p {
@@ -667,7 +667,7 @@ height:43px;
 a.project-name {
 	color:white;
 	text-transform: uppercase;
-	font-family: 'ospdin', Helvetica Neue, sans-serif; 
+	font-family: 'ospdin', 'Futura', 'Arial Narrow', Arial, sans-serif;  
 	font-size: 26px;
 	text-shadow: 0px -1px 0px #791e00;
 }
@@ -1202,11 +1202,11 @@ font-size:17px;
 .showcase .row {max-width:1062px !important;}
 .j-pics img {display: block; margin: auto; margin-bottom:5px;}
 .j-pics p {
-text-align: center; display: block;
-font-size:13px; 
-letter-spacing: 0.1em; line-height: 16px;
-margin-bottom:19px;
-text-shadow: 1px 1px 3px black; color:#999;
+	text-align: center; display: block;
+	font-size:13px; 
+	letter-spacing: 0.1em; line-height: 16px;
+	margin-bottom:19px;
+	text-shadow: 1px 1px 3px black; color:#999;
 }
 
 
@@ -1224,4 +1224,22 @@ em {font-style: italic;}
 .j-pop img {float:left; margin-bottom: 7px;}
 p.caption {font-size:15px; line-height: 17px; letter-spacing: 0.1em; max-width:500px; margin:auto; position:relative; text-align: center; font-style: italic; margin-bottom: 30px;}
 
+
+a.mobile-homepage-button {
+	background:#399; 
+	display:block; 
+	color:white; 
+	text-align:center; 
+	margin:20px; 
+	padding:20px;
 	
+		text-shadow:0px -1px 0px #1c6969;
+		
+		border-bottom:1px solid #fff;	
+		  -webkit-border-radius: 12px;
+		          border-radius: 12px;
+		  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+		  
+a.mobile-homepage-button:active, a.mobile-homepage-button:hover {background: black; font-size:large;}		  
+		  
