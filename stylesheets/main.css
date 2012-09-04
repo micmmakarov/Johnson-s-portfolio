@@ -438,132 +438,133 @@ padding-top:150px;
 .padding15 {
 padding:15px 0px;
 }
+
 @media only screen and (max-width: 5000px) {
 
-.image-wrap img{
-width:auto;
-height:569px;
-box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
-border:4px solid white;
-margin:auto;
-display:block;
-float:right;
-}
-.m-slider {
-float:right;
-width:700px;
-}
+	.image-wrap img{
+	width:auto;
+	height:569px;
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+	border:4px solid white;
+	margin:auto;
+	display:block;
+	float:right;
+	}
+	.m-slider {
+	float:right;
+	width:700px;
+	}
 
 }
 
 
 
 @media only screen and (max-width: 1470px) {
-.m-slider {
-float:right;
-width:100% !important;
-float:none !important;
-}
-.image-wrap img {
-height:auto !important;
-float:none !important;
-margin:auto;
-}
-.image-wrap {
-margin:auto;
-float:none;
-}
 
+	.m-slider {
+	float:right;
+	width:100% !important;
+	float:none !important;
+	}
+	.image-wrap img {
+	height:auto !important;
+	float:none !important;
+	margin:auto;
+	}
+	.image-wrap {
+	margin:auto;
+	float:none;
+	}
 }
 
 @media only screen and (max-width: 980px) {
 
-.green-bar .white-johnson {
-display:none;
-}
-.slide .row {
-overflow:hidden;
-}
-.m-slider {
-float:right;
-width:100% !important;
-float:none !important;
-}
-.image-wrap img {
-height:auto !important;
-float:none !important;
-margin:auto;
-}
-.image-wrap {
-margin:auto;
-float:none;
-}
-.green-line {
-margin-left:-40px;
-}
-.close-popup {
-margin-top:30px;
-margin-bottom:100px;
-}
-.project-popup, .popup-text {
-padding:15px; 
-}
-.johnson-set-paddings2 {max-width:5000px;padding:15px;}
-#nav {
-opacity:0.7;
-}
-
-#start {
-height:750px !important;
-}
-	
-div.orbit-wrapper div.slider-nav span.right {
-right:0 !important;
-}
-div.orbit-wrapper div.slider-nav span.left {
-left:0 !important;
-}
-div.orbit-wrapper div.slider-nav span {
-top:80% !important;
-}
-.hello-text {
-	font-size:24px;
-	
+	.green-bar .white-johnson {
+	display:none;
 	}
-.main-menu li {
-margin-right:0px;
-width:20%;
-text-align:center;
+	.slide .row {
+	overflow:hidden;
+	}
+	.m-slider {
+	float:right;
+	width:100% !important;
+	float:none !important;
+	}
+	.image-wrap img {
+	height:auto !important;
+	float:none !important;
+	margin:auto;
+	}
+	.image-wrap {
+	margin:auto;
+	float:none;
+	}
+	.green-line {
+	margin-left:-40px;
+	}
+	.close-popup {
+	margin-top:30px;
+	margin-bottom:100px;
+	}
+	.project-popup, .popup-text {
+	padding:15px; 
+	}
+	.johnson-set-paddings2 {max-width:5000px;padding:15px;}
+	#nav {
+	opacity:0.7;
+	}
+	
+	#start {
+	height:750px !important;
+	}
+	
+	div.orbit-wrapper div.slider-nav span.right {
+	right:0 !important;
+	}
+	div.orbit-wrapper div.slider-nav span.left {
+	left:0 !important;
+	}
+	div.orbit-wrapper div.slider-nav span {
+	top:80% !important;
+	}
+	.hello-text {
+		font-size:24px;
+	}
+		
+	.main-menu li {
+	margin-right:0px;
+	width:20%;
+	text-align:center;
+	}
+	.main-menu li:last-child {
+	width:40%;
 }
-.main-menu li:last-child {
-width:40%;
-}
-
-
 
 	.padding15 {
 	padding:15px 15px !important;
 	}
 
 
-
 }
+
 @media only screen and (max-width: 400px) {
 	.main-menu li a {
 	font-size:20px;
 	}
+/*
+	.hello-text {
+	font-size:x-large !important;
+	line-height:normal;
+	}	
+*/	
+	.main-menu a:first-child {
+	padding-left:5px;
+	}
 
-.hello-text {
-font-size:14px !important;
-line-height:25px;
-}	
-
-.main-menu a:first-child {
-padding-left:5px;
 }
 
-}
-	
+
+
 div.orbit-wrapper div.slider-nav span.right {
     background: url(../images/image.png) no-repeat -120px -130px;
 	width:110px;
@@ -704,13 +705,13 @@ font-size:18px;
 }
 
 .johnson-s-photo {
-background:white;
-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
 width:380px;
 }
 
-.johnson-s-photo img {margin-left:6.66px; float:left; width:120px; }
-.johnson-s-photo img:first-child{margin-left: none;}
+.johnson-s-photo img.trip-tick {margin-left:6.66px; float:left; width:120px; }
+.johnson-s-photo img.trip-tick:first-child{margin-left: none;}
+
+.johnson-s-photo img.sq {max-width:380px;}
 
 div.about .seven p {
 font-size:21px; 
@@ -1212,8 +1213,10 @@ text-shadow: 1px 1px 3px black; color:#999;
 .popup-text p:first-child {font-size: 12px; letter-spacing: 0.09em; color:#666; line-height: 17px; }
 	.j-pics p:first-letter {color:#c30 !important; font-size:10px;}
 		.popup-text h3 {font-family: 'asap', san-serif; font-size:16px; font-weight: bold; color: #eee; text-transform:uppercase; margin-bottom: 7px; margin-top:23px;}
+		.popup-text em {color:#fff;}
 
-em {font-style: italic; color:#fff;}
+
+em {font-style: italic;}
 
 
 
