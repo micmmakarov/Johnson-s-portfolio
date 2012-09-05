@@ -5,19 +5,30 @@
 Showcase stuff
 */
 
-		@media handheld, only screen and (max-width: 1023px) {
+@media only screen and (min-width: 1024px){
 
-.hello-text {font-size:30px; line-height: 40px; padding-left:50px; padding-right:50px; max-width: 500px;}
-.main-menu {min-width:613px;}
-.black-triangle {bottom:60px;}
+.show-on-1023 {display: none;}
+.reveal-modal.showcase {background: black;} 
+}
+
+
+@media handheld, only screen and (max-width: 1024px) {
+
+	.hello-text {font-size:30px; line-height: 40px; padding-left:50px; padding-right:50px; max-width: 500px;}
+	.main-menu {min-width:613px;}
+	.show-on-1023 {display: block;}
 	
-		}
+	.about-email a.johnson-email h2 {font-size: 3em;}
+
+}
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
 	.hello-text {
 		font-size:30px; line-height: 40px;	line-height:1.5em;
 	}
+
+	.black-triangle {bottom:60px;}
 
 	a.johnson-email-small h2{
 	font-size:3em; 
@@ -31,11 +42,22 @@ Showcase stuff
 		#first {background: #000;}
 		#second {background: #e1e1e1;}
 		#third {background: #000;}
-		#fourth {background: #999;}
+		#fourth {background: #ededed;}
 		#fifth {background: #e1e1e1;}
 		
+		#sc21 {background: #000;}
+		#sc22 {background: #ebebeb;}
+		#sc23 {background: #000;}
+		#sc24 {background: #eee;}
+		#sc25 {background: #000;}
 		
 	/* freebies page */
+		.show-on-1023 {display: block;}
+		
+	/* showcase */	
+	.johnson-set-paddings1 h2, .johnson-set-paddings1 span, .johnson-set-paddings2, .showcase-number {margin-left:0px;}	
+		.uc {display: block;}
+		.johnson-set-paddings1, .johnson-set-paddings2, .showcase-number {padding-left:20px;}
 	
 }	
 	
@@ -43,7 +65,9 @@ Showcase stuff
 @media only screen and (max-width: 400px) {
 
 	.hello-text {
-	font-size:x-large !important;
-	line-height:1.5em;
+	font-size:1.8 em !important;
+	line-height:1.2em;
 	}
+	.black-triangle {bottom:10px;}
+
 }

@@ -1139,9 +1139,11 @@ ul.orbit-bullets li.has-thumb {
 		position: absolute;
 		z-index: 41;
 		padding: 30px 40px 34px;
+		/*
 		-moz-border-radius: 5px;
 		-webkit-border-radius: 5px;
 		border-radius: 5px;
+		*/
 		-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
 		-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
 		box-shadow: 0 0 10px rgba(0,0,0,.4);
@@ -1152,7 +1154,7 @@ ul.orbit-bullets li.has-thumb {
 	.reveal-modal.medium 		{ width: 400px; margin-left: -240px; margin-top:-50px;}
 	.reveal-modal.large 		{ width: 600px; margin-left: -340px; margin-top:-50px;}
 	.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px; margin-top:-50px;}
-		.reveal-modal.xslarge 		{ width: 900px; margin-left: -490px; margin-top:-5%;}
+		.reveal-modal.xslarge 		{ width: 900px; margin-left: -490px; margin-top:-5%; background: white;}
 	.reveal-modal.xxlarge 		{ width: 1000px; margin-left: -540px; margin-top:-30px;}
 		.reveal-modal.showcase 	{ width:1063px; margin-left:-575px; background:none;}
 
@@ -1203,8 +1205,10 @@ ul.orbit-bullets li.has-thumb {
 			.reveal-modal.large,
 			.reveal-modal.xlarge { width: 60%; top: 60px; left: 15%; margin-left: 0; padding: 20px; height: auto; }
 				.reveal-modal.showcase {margin-left:-12%; background: #333; width:90%;padding: 40px 20px 20px 20px; } 
+			.reveal-modal.xslarge {margin-left:0%; background: #333; width:70%;padding: 40px 20px 20px 20px; }	
 			
 		}
+
 			
 		
 		@media handheld, only screen and (max-width: 767px) {
@@ -1213,9 +1217,10 @@ ul.orbit-bullets li.has-thumb {
 			.reveal-modal,
 			.reveal-modal.small,
 			.reveal-modal.medium,
-			.reveal-modal.large,
-			.reveal-modal.xlarge { width: 80%; top: 15px; left: 5%; margin-left: 0; padding: 20px; height: auto; }
+			.reveal-modal.large, .reveal-modal.xslarge,
+			.reveal-modal.xlarge { width: 80%; top: 13em; left: 5%; margin-left: 0; padding: 20px; height: auto; }
 				.reveal-modal.showcase {margin-left:-3.5%; width:80%; background: #333; width:90%;padding: 20px; } 
+				
 		}
 	
 	
