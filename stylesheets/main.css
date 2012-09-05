@@ -1199,7 +1199,7 @@ font-size:17px;
 
 /* showcase modal popup */
 .reveal-modal .row {margin-top: 0px;} 
-.showcase .row {max-width:1062px !important;}
+/*.showcase .row {max-width:1062px !important;}*/
 .j-pics img {display: block; margin: auto; margin-bottom:5px;}
 .j-pics p {
 	text-align: center; display: block;
